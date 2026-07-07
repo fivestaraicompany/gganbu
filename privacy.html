@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title data-i18n="meta.title">개인정보 처리방침 — GGanbu Chat</title>
 <meta name="description" data-i18n="meta.desc" content="GGanbu Chat 개인정보 처리방침" />
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="apple-touch-icon" href="icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
@@ -33,7 +35,7 @@
   .nav { display: flex; align-items: center; gap: 14px; height: 64px; max-width: 1120px; margin: 0 auto; padding: 0 22px; }
   .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; color: var(--text); }
   .logo:hover { text-decoration: none; }
-  .logo .mark { width: 32px; height: 32px; border-radius: 9px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); display: grid; place-items: center; font-size: 18px; }
+  .logo .mark { width: 32px; height: 32px; border-radius: 9px; object-fit: cover; display: block; }
   .nav .spacer { flex: 1; }
   .back { color: var(--muted); font-size: 14px; font-weight: 500; }
   .back:hover { color: var(--text); text-decoration: none; }
@@ -67,7 +69,7 @@
 <body>
 <header>
   <div class="nav">
-    <a class="logo" href="index.html"><span class="mark">🤝</span><span>GGanbu Chat</span></a>
+    <a class="logo" href="index.html"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
     <a class="back" href="index.html" data-i18n="nav.back">← 홈으로</a>
     <select id="langSelect" class="lang-select" aria-label="Language"></select>
@@ -134,7 +136,7 @@
 
 <footer>
   <div class="wrap foot">
-    <a class="logo" href="index.html"><span class="mark">🤝</span><span>GGanbu Chat</span></a>
+    <a class="logo" href="index.html"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
     <a href="index.html" data-i18n="nav.back">← 홈으로</a>
     <div class="copy" data-i18n="footer.copy">© 2026 GGanbu Chat. All rights reserved.</div>

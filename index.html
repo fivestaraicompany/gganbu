@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title data-i18n="meta.title">GGanbu Chat — 곁에 있는 사람과, 모든 언어로</title>
 <meta name="description" data-i18n="meta.desc" content="인터넷 없이 블루투스로 주변 사람과 실시간 번역 채팅. iOS와 Android가 함께 통하는 GGanbu Chat." />
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="apple-touch-icon" href="icon.png" />
+<meta property="og:title" content="GGanbu Chat" />
+<meta property="og:description" content="인터넷 없이 블루투스로 주변 사람과 실시간 번역 채팅. iOS와 Android가 함께 통하는 GGanbu Chat." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://fivestaraicompany.github.io/gganbu/icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://fivestaraicompany.github.io/gganbu/icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
@@ -47,8 +55,7 @@
   .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; }
   .logo .mark {
     width: 32px; height: 32px; border-radius: 9px;
-    background: linear-gradient(135deg, var(--brand), var(--brand-2));
-    display: grid; place-items: center; font-size: 18px;
+    object-fit: cover; display: block;
   }
   .nav .spacer { flex: 1; }
   .nav-links { display: flex; gap: 22px; }
@@ -167,7 +174,7 @@
 <body>
 <header>
   <div class="wrap nav">
-    <a class="logo" href="#"><span class="mark">🤝</span><span>GGanbu Chat</span></a>
+    <a class="logo" href="#"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
     <nav class="nav-links">
       <a href="#features" data-i18n="nav.features">기능</a>
@@ -275,7 +282,7 @@
 
 <footer>
   <div class="wrap foot">
-    <a class="logo" href="#"><span class="mark">🤝</span><span>GGanbu Chat</span></a>
+    <a class="logo" href="#"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
     <a href="#features" data-i18n="nav.features">기능</a>
     <a href="privacy.html" data-i18n="nav.privacy">개인정보</a>
