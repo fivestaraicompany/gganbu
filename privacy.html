@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title data-i18n="meta.title">개인정보 처리방침 — GGanbu Chat</title>
-<meta name="description" data-i18n="meta.desc" content="GGanbu Chat 개인정보 처리방침" />
+<title data-i18n="meta.title">Privacy Policy — GGanbu Chat</title>
+<meta name="description" data-i18n="meta.desc" data-i18n-attr="content" content="GGanbu Chat Privacy Policy" />
 <link rel="icon" type="image/png" href="icon.png" />
 <link rel="apple-touch-icon" href="icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -66,70 +66,70 @@
   .foot .copy { color: var(--muted); font-size: 13px; width: 100%; }
 </style>
 </head>
-<body>
+<body data-i18n-page="privacy">
 <header>
   <div class="nav">
     <a class="logo" href="index.html"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
-    <a class="back" href="index.html" data-i18n="nav.back">← 홈으로</a>
-    <select id="langSelect" class="lang-select" aria-label="Language"></select>
+    <a class="back" href="index.html" data-i18n="nav.back">← Home</a>
+    <select id="langSelect" class="lang-select" aria-label="Language" data-i18n="language.selector" data-i18n-attr="aria-label"></select>
   </div>
 </header>
 
 <main>
   <div class="wrap">
-    <span class="pill" data-i18n="badge">개인정보 처리방침</span>
-    <h1 data-i18n="title" style="margin-top:14px">개인정보 처리방침</h1>
-    <p class="updated" data-i18n="updated">최종 업데이트: 2026년 7월 7일</p>
+    <span class="pill" data-i18n="badge">Privacy Policy</span>
+    <h1 data-i18n="title" style="margin-top:14px">Privacy Policy</h1>
+    <p class="updated" data-i18n="updated">Last updated: July 18, 2026</p>
 
-    <div class="intro"><p style="margin:0" data-i18n="intro">GGanbu Chat(이하 '앱')은 이용자의 개인정보를 중요하게 생각합니다. 이 앱은 중앙 서버 없이 블루투스로 기기 간에 직접 통신하도록 설계되었습니다. 본 방침은 앱이 어떤 정보를 다루고, 그 정보가 어떻게 처리·보호되는지를 설명합니다.</p></div>
+    <div class="intro"><p style="margin:0" data-i18n="intro">GGanbu Chat ("the app," "we," "us," or "our") is a nearby communication app provided by the developer identified in its app-store listing. Core chats are exchanged directly between devices over Bluetooth rather than through a central chat server. Some optional functions, including translation, safety reports, and in-app purchases, use network or platform services as described below. This Privacy Policy explains what information is handled, why it is used, whom it may be shared with, how long it is kept, and the choices available to you.</p></div>
 
-    <h2 data-i18n="s1.t">1. 수집·처리하는 정보</h2>
-    <p data-i18n="s1.p">앱은 다음 정보를 이용자의 기기에서 처리하며, 대화 상대가 곁에 있을 때 블루투스를 통해 직접 전달됩니다.</p>
+    <h2 data-i18n="s1.t">1. Information We Handle</h2>
+    <p data-i18n="s1.p">Depending on the features you choose, the app handles the following categories of information:</p>
     <ul>
-      <li data-i18n="s1.l1"><strong>프로필 정보</strong> — 표시 이름, 선택 사항인 프로필 사진과 이메일 주소. 깐부(상호 관심) 관계가 맺어진 경우에 한해 이메일이 상대에게 전달될 수 있습니다.</li>
-      <li data-i18n="s1.l2"><strong>메시지와 사진</strong> — 대화에서 주고받는 텍스트와 이미지. 곁에 있는 상대 기기로 블루투스를 통해 직접 전송됩니다.</li>
-      <li data-i18n="s1.l3"><strong>기기 식별자</strong> — 기기에서 무작위로 생성된 식별값으로, 같은 사용자를 구분하기 위해 사용됩니다.</li>
-      <li data-i18n="s1.l4"><strong>대략적인 거리</strong> — 블루투스 신호 세기(RSSI)로 추정한 근접도이며, 위치 좌표(GPS)는 수집하지 않습니다.</li>
+      <li data-i18n="s1.l1" data-i18n-html><strong>Profile and contact information</strong> — your display name and, if you choose to provide them, a profile photo and email address. Your profile is visible to nearby users while you are discoverable. Your email may be shared with another user only after mutual GGanbu interest, and may be included in a safety report you choose to send.</li>
+      <li data-i18n="s1.l2" data-i18n-html><strong>User content</strong> — messages and photos you exchange are stored on the participating devices and sent directly over Bluetooth. If you submit a safety report, the report may include the reported message, recent conversation context, and photos received from the reported user.</li>
+      <li data-i18n="s1.l3" data-i18n-html><strong>Device and proximity information</strong> — a randomly generated app identifier distinguishes nearby users. Bluetooth signal strength (RSSI) is used to estimate proximity. The app does not use RSSI to derive or store GPS coordinates.</li>
+      <li data-i18n="s1.l4" data-i18n-html><strong>Report, app, and purchase information</strong> — a report may include the reporter's and reported user's names, reporter email, report reason and time, app version, and an encrypted copy of the reported user's app identifier. Apple or Google may provide purchase status and transaction identifiers needed to complete or restore an in-app purchase.</li>
     </ul>
 
-    <h2 data-i18n="s2.t">2. 서버가 없습니다</h2>
-    <p data-i18n="s2.p">앱은 회원가입이나 계정이 필요 없으며, 운영자가 운영하는 중앙 서버에 이용자의 프로필·메시지·사진을 업로드하거나 저장하지 않습니다. 모든 대화는 블루투스 범위 내의 기기와 기기 사이에서만 직접 오갑니다.</p>
+    <h2 data-i18n="s2.t">2. How We Use and Share Information</h2>
+    <p data-i18n="s2.p">We use information only to provide nearby discovery and device-to-device communication, perform translation you request, complete purchases, prevent abuse, respond to reports and support requests, and comply with law. Profile information and chat content are shared with the nearby users you choose to interact with. Translation text is shared with the translation endpoint you configure; purchase information is handled with Apple or Google; and report information is sent through your chosen email provider to our safety contact. Where we select a service provider to process information for us, we require privacy protections consistent with this policy; services you independently choose are governed by their own terms and privacy practices. We do not sell personal information, use it for third-party advertising, or operate advertising or cross-app tracking SDKs. We do not receive routine copies of direct chats on a central chat server.</p>
 
-    <h2 data-i18n="s3.t">3. 권한 사용 및 표시 제어</h2>
+    <h2 data-i18n="s3.t">3. Permissions and Visibility Controls</h2>
     <ul>
-      <li data-i18n="s3.l1"><strong>블루투스</strong> — 주변 기기를 탐색하고 연결하여 메시지를 주고받기 위해 사용합니다. 앱의 핵심 기능입니다.</li>
-      <li data-i18n="s3.l2"><strong>위치 권한(Android)</strong> — Android 운영체제는 블루투스 기기 검색을 위해 위치 권한을 요구합니다. 이는 시스템 요구사항이며, 앱은 이용자의 지리적 위치를 수집·저장·전송하지 않습니다.</li>
-      <li data-i18n="s3.l3"><strong>사진·카메라</strong> — 프로필 사진을 설정하거나 대화에서 사진을 공유할 때 이용자가 선택한 이미지에만 접근합니다.</li>
-      <li data-i18n="s3.l4"><strong>주변에 표시(디스커버리)</strong> — 나를 주변 사용자에게 알릴지는 이용자가 직접 선택합니다. 앱은 동의를 받은 뒤에만 블루투스로 표시 이름을 알리며, 상단 안테나 버튼으로 언제든 중지할 수 있습니다. 앱은 이용자를 지도에 표시하지 않습니다.</li>
+      <li data-i18n="s3.l1" data-i18n-html><strong>Bluetooth / Nearby devices</strong> — used to find, advertise to, connect with, and exchange content with nearby devices. These permissions are necessary for the app's core function and can be revoked in system settings.</li>
+      <li data-i18n="s3.l2" data-i18n-html><strong>Location (Android 11 and earlier)</strong> — older Android versions require location permission for Bluetooth scanning. On newer supported versions, the app requests Nearby devices permissions and declares that Bluetooth scanning is not used to derive physical location. We do not collect or transmit GPS coordinates.</li>
+      <li data-i18n="s3.l3" data-i18n-html><strong>Photos and notifications</strong> — the app accesses only the photos you select for a profile or chat. Notification permission is used to alert you to messages and to support Bluetooth operation where the operating system requires it. You can deny or revoke optional permissions in system settings.</li>
+      <li data-i18n="s3.l4" data-i18n-html><strong>Discoverability</strong> — you decide when to make your profile visible to nearby users. While enabled, the app advertises profile information needed for discovery over Bluetooth. You can stop discoverability at any time with the antenna control. The app does not place you on a map or randomly match you into a chat.</li>
     </ul>
 
-    <h2 data-i18n="s4.t">4. 번역</h2>
-    <p data-i18n="s4.p">실시간 번역은 보내는 메시지를 상대의 언어로 변환하기 위해 사용됩니다. 번역 처리는 메시지 텍스트에 대해서만 이루어지며, 번역을 위해 전송된 텍스트는 대화 전달 목적 외의 별도 마케팅 용도로 보관되지 않습니다.</p>
+    <h2 data-i18n="s4.t">4. Translation and Network Services</h2>
+    <p data-i18n="s4.p">Translation is optional and requires access to an Ollama-compatible endpoint configured in the app. When you request translation, the message text, translation instructions, target language, and model request are sent to that endpoint over the local network or internet, depending on the address you configured. The endpoint operator may also receive ordinary network information such as your IP address and is responsible for its own security, logging, retention, and privacy practices. We do not control user-selected endpoints. Direct Bluetooth chat can continue without translation when no endpoint is available.</p>
 
-    <h2 data-i18n="s5.t">5. 데이터 보관 및 삭제</h2>
-    <p data-i18n="s5.p">대화 내용과 프로필은 이용자의 기기에 저장됩니다. 다음 방법으로 직접 관리·삭제할 수 있습니다.</p>
+    <h2 data-i18n="s5.t">5. Storage, Security, Retention, and Deletion</h2>
+    <p data-i18n="s5.p">Profiles, conversations, blocks, and the app-generated identifier are generally kept on your device for as long as the app or relevant record remains there. The operating system's device protections safeguard local app data. Bluetooth and network transmission security also depends on the participating devices, configured endpoint, network, and email provider. No method of storage or transmission is completely secure.</p>
     <ul>
-      <li data-i18n="s5.l1"><strong>대화 삭제</strong> — 개별 대화를 삭제하면 해당 메시지가 기기에서 제거됩니다.</li>
-      <li data-i18n="s5.l2"><strong>차단</strong> — 특정 이용자를 차단하여 프로필 노출과 메시지 수신을 막을 수 있습니다.</li>
-      <li data-i18n="s5.l3"><strong>신고</strong> — 대화 중 부적절한 콘텐츠나 이용자를 신고할 수 있습니다. 신고는 24시간 이내에 검토·조치되며, 위반 콘텐츠는 삭제되고 위반 이용자는 이용이 제한됩니다.</li>
-      <li data-i18n="s5.l4"><strong>앱 삭제</strong> — 앱을 삭제하면 기기에 저장된 관련 데이터가 함께 제거됩니다.</li>
+      <li data-i18n="s5.l1" data-i18n-html><strong>Delete a conversation</strong> — removes that conversation from your device. It does not delete copies already received, saved, or reported by another user.</li>
+      <li data-i18n="s5.l2" data-i18n-html><strong>Block a user</strong> — stores the block on your device and prevents further profile exposure and incoming communication from that app identifier. You can manage blocked users in the app.</li>
+      <li data-i18n="s5.l3" data-i18n-html><strong>Send a report</strong> — first blocks the reported user, then opens an email draft for your review. If you send it, the report and any selected evidence are transmitted by your email provider to our safety contact. The reported app identifier is encrypted for the developer, while the email body and photo archive are handled under your email provider's protections. We retain reports only as reasonably necessary to investigate, enforce our rules, protect users, resolve disputes, and meet legal obligations, after which they are deleted or de-identified.</li>
+      <li data-i18n="s5.l4" data-i18n-html><strong>Uninstall or request deletion</strong> — uninstalling normally removes app data from your device, subject to operating-system backups or copies held by recipients and service providers. Because there is no app account, there is no server account to delete. To request deletion of a report or support record we control, contact us below; we may retain information where legally required or necessary for safety and fraud prevention.</li>
     </ul>
 
-    <h2 data-i18n="s6.t">6. 결제(인앱 구매)</h2>
-    <p data-i18n="s6.p">일부 기능은 인앱 구매로 제공될 수 있습니다. 결제는 Apple App Store 또는 Google Play를 통해 처리되며, 결제 정보는 해당 플랫폼이 각자의 개인정보 처리방침에 따라 처리합니다. 앱은 이용자의 카드 번호 등 결제 수단 정보를 수집하지 않습니다.</p>
+    <h2 data-i18n="s6.t">6. Payments (In-App Purchases)</h2>
+    <p data-i18n="s6.p">In-app purchases are processed by Apple App Store or Google Play under the platform's terms and privacy policy. We do not receive or store your full card number or other payment credentials. The app and store may exchange product, transaction, purchase-status, and device/account-related information needed to process, verify, consume, or restore a purchase.</p>
 
-    <h2 data-i18n="s7.t">7. 연령 제한 (만 18세 이상)</h2>
-    <p data-i18n="s7.p">본 앱은 만 18세 이상 이용자를 대상으로 합니다. 이용자는 주변의 낯선 사람과 대화하고 사진을 주고받을 수 있으므로, 만 18세 미만은 본 앱을 이용할 수 없습니다. 앱은 아동을 대상으로 하지 않으며 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+    <h2 data-i18n="s7.t">7. Age Restriction (18+)</h2>
+    <p data-i18n="s7.p">The app is intended only for adults aged 18 and older. It is not directed to children, and anyone under 18 must not use it. If you believe a minor has provided information through a report or support request, contact us so we can investigate and delete it where appropriate.</p>
 
-    <h2 data-i18n="s8.t">8. 이용자의 권리</h2>
-    <p data-i18n="s8.p">이용자는 기기에 저장된 자신의 정보를 직접 열람·수정·삭제할 수 있습니다. 거주 지역의 법령(예: GDPR, CCPA)에 따라 추가적인 권리가 보장될 수 있으며, 관련 문의는 아래 연락처로 보내주시기 바랍니다.</p>
+    <h2 data-i18n="s8.t">8. Your Rights</h2>
+    <p data-i18n="s8.p">You can view or edit your profile, disable discoverability, revoke permissions, manage blocked users, delete conversations, stop using a translation endpoint, or uninstall the app. Depending on where you live, you may also have rights to access, correct, delete, restrict, object to, or obtain a copy of personal information we control, and to withdraw consent without affecting earlier processing. Contact us to exercise applicable rights. You may also complain to your local data-protection authority. We may need to verify a request before acting on it.</p>
 
-    <h2 data-i18n="s9.t">9. 방침의 변경</h2>
-    <p data-i18n="s9.p">본 방침은 필요에 따라 개정될 수 있으며, 변경 시 본 페이지에 최종 업데이트 날짜와 함께 게시됩니다.</p>
+    <h2 data-i18n="s9.t">9. Changes to This Policy</h2>
+    <p data-i18n="s9.p">We may update this policy when the app, our practices, or legal requirements change. We will post the revised policy here and update the date above. If a change materially affects how we use information, we will provide any additional notice or consent required by law.</p>
 
-    <h2 data-i18n="s10.t">10. 문의처</h2>
-    <p data-i18n="s10.p">개인정보 처리방침에 관한 문의는 다음으로 연락해 주십시오.</p>
+    <h2 data-i18n="s10.t">10. Contact</h2>
+    <p data-i18n="s10.p">For questions about this Privacy Policy, please contact us at:</p>
     <p><a href="mailto:fivestaraicompany@gmail.com">fivestaraicompany@gmail.com</a></p>
   </div>
 </main>
@@ -138,283 +138,11 @@
   <div class="wrap foot">
     <a class="logo" href="index.html"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
-    <a href="index.html" data-i18n="nav.back">← 홈으로</a>
+    <a href="index.html" data-i18n="nav.back">← Home</a>
     <div class="copy" data-i18n="footer.copy">© 2026 GGanbu Chat. All rights reserved.</div>
   </div>
 </footer>
 
-<script>
-const I18N = {
-  ko: {
-    "meta.title": "개인정보 처리방침 — GGanbu Chat", "meta.desc": "GGanbu Chat 개인정보 처리방침",
-    "nav.back": "← 홈으로", "badge": "개인정보 처리방침", "title": "개인정보 처리방침",
-    "updated": "최종 업데이트: 2026년 7월 7일",
-    "intro": "GGanbu Chat(이하 '앱')은 이용자의 개인정보를 중요하게 생각합니다. 이 앱은 중앙 서버 없이 블루투스로 기기 간에 직접 통신하도록 설계되었습니다. 본 방침은 앱이 어떤 정보를 다루고, 그 정보가 어떻게 처리·보호되는지를 설명합니다.",
-    "s1.t": "1. 수집·처리하는 정보",
-    "s1.p": "앱은 다음 정보를 이용자의 기기에서 처리하며, 대화 상대가 곁에 있을 때 블루투스를 통해 직접 전달됩니다.",
-    "s1.l1": "<strong>프로필 정보</strong> — 표시 이름, 선택 사항인 프로필 사진과 이메일 주소. 깐부(상호 관심) 관계가 맺어진 경우에 한해 이메일이 상대에게 전달될 수 있습니다.",
-    "s1.l2": "<strong>메시지와 사진</strong> — 대화에서 주고받는 텍스트와 이미지. 곁에 있는 상대 기기로 블루투스를 통해 직접 전송됩니다.",
-    "s1.l3": "<strong>기기 식별자</strong> — 기기에서 무작위로 생성된 식별값으로, 같은 사용자를 구분하기 위해 사용됩니다.",
-    "s1.l4": "<strong>대략적인 거리</strong> — 블루투스 신호 세기(RSSI)로 추정한 근접도이며, 위치 좌표(GPS)는 수집하지 않습니다.",
-    "s2.t": "2. 서버가 없습니다",
-    "s2.p": "앱은 회원가입이나 계정이 필요 없으며, 운영자가 운영하는 중앙 서버에 이용자의 프로필·메시지·사진을 업로드하거나 저장하지 않습니다. 모든 대화는 블루투스 범위 내의 기기와 기기 사이에서만 직접 오갑니다.",
-    "s3.t": "3. 권한 사용 및 표시 제어",
-    "s3.l1": "<strong>블루투스</strong> — 주변 기기를 탐색하고 연결하여 메시지를 주고받기 위해 사용합니다. 앱의 핵심 기능입니다.",
-    "s3.l2": "<strong>위치 권한(Android)</strong> — Android 운영체제는 블루투스 기기 검색을 위해 위치 권한을 요구합니다. 이는 시스템 요구사항이며, 앱은 이용자의 지리적 위치를 수집·저장·전송하지 않습니다.",
-    "s3.l3": "<strong>사진·카메라</strong> — 프로필 사진을 설정하거나 대화에서 사진을 공유할 때 이용자가 선택한 이미지에만 접근합니다.",
-    "s3.l4": "<strong>주변에 표시(디스커버리)</strong> — 나를 주변 사용자에게 알릴지는 이용자가 직접 선택합니다. 앱은 동의를 받은 뒤에만 블루투스로 표시 이름을 알리며, 상단 안테나 버튼으로 언제든 중지할 수 있습니다. 앱은 이용자를 지도에 표시하지 않습니다.",
-    "s4.t": "4. 번역",
-    "s4.p": "실시간 번역은 보내는 메시지를 상대의 언어로 변환하기 위해 사용됩니다. 번역 처리는 메시지 텍스트에 대해서만 이루어지며, 번역을 위해 전송된 텍스트는 대화 전달 목적 외의 별도 마케팅 용도로 보관되지 않습니다.",
-    "s5.t": "5. 데이터 보관 및 삭제",
-    "s5.p": "대화 내용과 프로필은 이용자의 기기에 저장됩니다. 다음 방법으로 직접 관리·삭제할 수 있습니다.",
-    "s5.l1": "<strong>대화 삭제</strong> — 개별 대화를 삭제하면 해당 메시지가 기기에서 제거됩니다.",
-    "s5.l2": "<strong>차단</strong> — 특정 이용자를 차단하여 프로필 노출과 메시지 수신을 막을 수 있습니다.",
-    "s5.l3": "<strong>신고</strong> — 대화 중 부적절한 콘텐츠나 이용자를 신고할 수 있습니다. 신고는 24시간 이내에 검토·조치되며, 위반 콘텐츠는 삭제되고 위반 이용자는 이용이 제한됩니다.",
-    "s5.l4": "<strong>앱 삭제</strong> — 앱을 삭제하면 기기에 저장된 관련 데이터가 함께 제거됩니다.",
-    "s6.t": "6. 결제(인앱 구매)",
-    "s6.p": "일부 기능은 인앱 구매로 제공될 수 있습니다. 결제는 Apple App Store 또는 Google Play를 통해 처리되며, 결제 정보는 해당 플랫폼이 각자의 개인정보 처리방침에 따라 처리합니다. 앱은 이용자의 카드 번호 등 결제 수단 정보를 수집하지 않습니다.",
-    "s7.t": "7. 연령 제한 (만 18세 이상)",
-    "s7.p": "본 앱은 만 18세 이상 이용자를 대상으로 합니다. 이용자는 주변의 낯선 사람과 대화하고 사진을 주고받을 수 있으므로, 만 18세 미만은 본 앱을 이용할 수 없습니다. 앱은 아동을 대상으로 하지 않으며 아동의 개인정보를 고의로 수집하지 않습니다.",
-    "s8.t": "8. 이용자의 권리",
-    "s8.p": "이용자는 기기에 저장된 자신의 정보를 직접 열람·수정·삭제할 수 있습니다. 거주 지역의 법령(예: GDPR, CCPA)에 따라 추가적인 권리가 보장될 수 있으며, 관련 문의는 아래 연락처로 보내주시기 바랍니다.",
-    "s9.t": "9. 방침의 변경",
-    "s9.p": "본 방침은 필요에 따라 개정될 수 있으며, 변경 시 본 페이지에 최종 업데이트 날짜와 함께 게시됩니다.",
-    "s10.t": "10. 문의처", "s10.p": "개인정보 처리방침에 관한 문의는 다음으로 연락해 주십시오.",
-    "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
-  },
-  en: {
-    "meta.title": "Privacy Policy — GGanbu Chat", "meta.desc": "GGanbu Chat Privacy Policy",
-    "nav.back": "← Home", "badge": "Privacy Policy", "title": "Privacy Policy",
-    "updated": "Last updated: July 7, 2026",
-    "intro": "GGanbu Chat (\"the app\") cares about your privacy. The app is designed to communicate directly between devices over Bluetooth, with no central server. This policy explains what information the app handles and how it is processed and protected.",
-    "s1.t": "1. Information We Handle",
-    "s1.p": "The app processes the following information on your device. It is sent directly over Bluetooth only when a chat partner is nearby.",
-    "s1.l1": "<strong>Profile information</strong> — your display name, and optionally a profile photo and email address. Your email may be shared with a partner only after you become GGanbu (mutual interest).",
-    "s1.l2": "<strong>Messages and photos</strong> — the text and images you exchange in a conversation, transmitted directly to the nearby device over Bluetooth.",
-    "s1.l3": "<strong>Device identifier</strong> — a randomly generated value created on your device, used to distinguish users.",
-    "s1.l4": "<strong>Approximate distance</strong> — proximity estimated from Bluetooth signal strength (RSSI). We do not collect GPS location coordinates.",
-    "s2.t": "2. There Is No Server",
-    "s2.p": "The app requires no sign-up or account, and we do not upload or store your profile, messages, or photos on any central server we operate. All conversations travel only directly between devices within Bluetooth range.",
-    "s3.t": "3. Permissions and Visibility Controls",
-    "s3.l1": "<strong>Bluetooth</strong> — used to discover and connect to nearby devices and exchange messages. This is the core function of the app.",
-    "s3.l2": "<strong>Location (Android)</strong> — the Android operating system requires location permission to scan for Bluetooth devices. This is a system requirement; the app does not collect, store, or transmit your geographic location.",
-    "s3.l3": "<strong>Photos / Camera</strong> — accessed only for images you choose, when setting a profile photo or sharing a photo in a conversation.",
-    "s3.l4": "<strong>Being discoverable</strong> — you choose whether to make yourself visible to nearby users. The app broadcasts your display name over Bluetooth only after you consent, and you can stop at any time using the antenna button at the top. The app never shows you on a map.",
-    "s4.t": "4. Translation",
-    "s4.p": "Real-time translation is used to convert your outgoing message into the recipient's language. Translation processing applies only to message text, and text submitted for translation is not retained for marketing purposes beyond delivering the conversation.",
-    "s5.t": "5. Data Retention and Deletion",
-    "s5.p": "Conversations and your profile are stored on your device. You can manage and delete them directly:",
-    "s5.l1": "<strong>Delete conversation</strong> — deleting an individual conversation removes those messages from your device.",
-    "s5.l2": "<strong>Block</strong> — block a specific user to prevent profile exposure and incoming messages.",
-    "s5.l3": "<strong>Report</strong> — you can report objectionable content or users from within a chat. Reports are reviewed and acted upon within 24 hours; offending content is removed and offending users are ejected.",
-    "s5.l4": "<strong>Uninstall</strong> — uninstalling the app removes the related data stored on your device.",
-    "s6.t": "6. Payments (In-App Purchases)",
-    "s6.p": "Some features may be offered as in-app purchases. Payments are processed through the Apple App Store or Google Play, and payment information is handled by those platforms under their own privacy policies. The app does not collect your card number or other payment details.",
-    "s7.t": "7. Age Restriction (18+)",
-    "s7.p": "This app is intended for users aged 18 and older. Because users can chat and exchange photos with strangers nearby, the app is not available to anyone under 18. The app is not directed to children and does not knowingly collect personal information from children.",
-    "s8.t": "8. Your Rights",
-    "s8.p": "You can directly view, edit, and delete your information stored on your device. Depending on your region (e.g., GDPR, CCPA), you may have additional rights; for related requests, please contact us at the address below.",
-    "s9.t": "9. Changes to This Policy",
-    "s9.p": "We may revise this policy as needed. When we do, the updated version will be posted on this page along with the new 'last updated' date.",
-    "s10.t": "10. Contact", "s10.p": "For questions about this Privacy Policy, please contact us at:",
-    "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
-  },
-  ja: {
-    "meta.title": "プライバシーポリシー — GGanbu Chat", "meta.desc": "GGanbu Chat プライバシーポリシー",
-    "nav.back": "← ホームへ", "badge": "プライバシーポリシー", "title": "プライバシーポリシー",
-    "updated": "最終更新日: 2026年7月7日",
-    "intro": "GGanbu Chat（以下「本アプリ」）は、ユーザーのプライバシーを大切にしています。本アプリは中央サーバーを介さず、Bluetoothで端末間に直接通信するよう設計されています。本ポリシーは、本アプリが扱う情報と、その取り扱い・保護の方法を説明します。",
-    "s1.t": "1. 取り扱う情報",
-    "s1.p": "本アプリは以下の情報を端末上で処理し、会話相手が近くにいるときにBluetoothを通じて直接送信します。",
-    "s1.l1": "<strong>プロフィール情報</strong> — 表示名、任意のプロフィール写真およびメールアドレス。メールアドレスは、ッカンブ（相互の関心）の関係になった場合に限り相手に共有されることがあります。",
-    "s1.l2": "<strong>メッセージと写真</strong> — 会話でやり取りするテキストと画像。近くの相手の端末へBluetoothで直接送信されます。",
-    "s1.l3": "<strong>端末識別子</strong> — 端末上でランダムに生成される値で、ユーザーを区別するために使用します。",
-    "s1.l4": "<strong>おおよその距離</strong> — Bluetooth信号強度（RSSI）から推定した近接度であり、GPSの位置座標は収集しません。",
-    "s2.t": "2. サーバーはありません",
-    "s2.p": "本アプリは会員登録やアカウントを必要とせず、運営者が運営する中央サーバーにユーザーのプロフィール・メッセージ・写真をアップロードまたは保存しません。すべての会話はBluetooth範囲内の端末同士でのみ直接やり取りされます。",
-    "s3.t": "3. 権限の使用と表示の制御",
-    "s3.l1": "<strong>Bluetooth</strong> — 近くの端末を探索・接続し、メッセージをやり取りするために使用します。本アプリの中核機能です。",
-    "s3.l2": "<strong>位置情報権限（Android）</strong> — Android OSはBluetooth機器の検索に位置情報権限を要求します。これはシステム要件であり、本アプリはユーザーの地理的位置を収集・保存・送信しません。",
-    "s3.l3": "<strong>写真・カメラ</strong> — プロフィール写真の設定や会話での写真共有の際、ユーザーが選択した画像にのみアクセスします。",
-    "s3.l4": "<strong>周囲への表示（ディスカバリー）</strong> — 自分を近くのユーザーに知らせるかどうかはユーザー自身が選びます。本アプリは同意を得た後にのみBluetoothで表示名を発信し、上部のアンテナボタンでいつでも停止できます。本アプリはユーザーを地図上に表示しません。",
-    "s4.t": "4. 翻訳",
-    "s4.p": "リアルタイム翻訳は、送信するメッセージを相手の言語に変換するために使用します。翻訳処理はメッセージのテキストにのみ適用され、翻訳のために送信されたテキストは、会話の配信目的を超えてマーケティング目的で保持されることはありません。",
-    "s5.t": "5. データの保持と削除",
-    "s5.p": "会話内容とプロフィールはユーザーの端末に保存されます。以下の方法で直接管理・削除できます。",
-    "s5.l1": "<strong>会話の削除</strong> — 個別の会話を削除すると、該当メッセージが端末から削除されます。",
-    "s5.l2": "<strong>ブロック</strong> — 特定のユーザーをブロックして、プロフィールの表示やメッセージ受信を防げます。",
-    "s5.l3": "<strong>通報</strong> — 会話中に不適切なコンテンツやユーザーを通報できます。通報は24時間以内に確認・対応され、違反コンテンツは削除され、違反ユーザーは利用を制限されます。",
-    "s5.l4": "<strong>アンインストール</strong> — アプリを削除すると、端末に保存された関連データも削除されます。",
-    "s6.t": "6. 決済（アプリ内課金）",
-    "s6.p": "一部の機能はアプリ内課金として提供されることがあります。決済はApple App StoreまたはGoogle Playを通じて処理され、決済情報は各プラットフォームがそれぞれのプライバシーポリシーに従って取り扱います。本アプリはカード番号などの決済手段情報を収集しません。",
-    "s7.t": "7. 年齢制限（18歳以上）",
-    "s7.p": "本アプリは18歳以上のユーザーを対象としています。近くの見知らぬ相手と会話したり写真をやり取りしたりできるため、18歳未満の方は本アプリを利用できません。本アプリは子どもを対象としておらず、子どもの個人情報を故意に収集しません。",
-    "s8.t": "8. ユーザーの権利",
-    "s8.p": "ユーザーは端末に保存された自身の情報を直接閲覧・修正・削除できます。お住まいの地域の法令（例：GDPR、CCPA）により追加の権利が保障される場合があります。関連するお問い合わせは下記までご連絡ください。",
-    "s9.t": "9. ポリシーの変更",
-    "s9.p": "本ポリシーは必要に応じて改定されることがあり、変更時には最終更新日とともに本ページに掲載します。",
-    "s10.t": "10. お問い合わせ", "s10.p": "本プライバシーポリシーに関するお問い合わせは、以下までご連絡ください。",
-    "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
-  },
-  zh_CN: {
-    "meta.title": "隐私政策 — GGanbu Chat", "meta.desc": "GGanbu Chat 隐私政策",
-    "nav.back": "← 返回首页", "badge": "隐私政策", "title": "隐私政策",
-    "updated": "最后更新：2026年7月7日",
-    "intro": "GGanbu Chat（以下简称「本应用」）重视您的隐私。本应用设计为无需中央服务器，通过蓝牙在设备之间直接通信。本政策说明本应用处理哪些信息，以及这些信息如何被处理和保护。",
-    "s1.t": "1. 我们处理的信息",
-    "s1.p": "本应用在您的设备上处理以下信息，仅在聊天对象就在附近时通过蓝牙直接发送。",
-    "s1.l1": "<strong>个人资料信息</strong> — 显示名称，以及可选的头像和电子邮箱地址。仅在结为「깐부」（相互关注）后，您的邮箱才可能分享给对方。",
-    "s1.l2": "<strong>消息与图片</strong> — 您在对话中收发的文字和图像，通过蓝牙直接传输到附近的设备。",
-    "s1.l3": "<strong>设备标识符</strong> — 在您的设备上随机生成的值，用于区分用户。",
-    "s1.l4": "<strong>大致距离</strong> — 根据蓝牙信号强度（RSSI）估算的接近程度，我们不收集 GPS 位置坐标。",
-    "s2.t": "2. 没有服务器",
-    "s2.p": "本应用无需注册或账户，我们不会将您的个人资料、消息或图片上传或存储到我们运营的任何中央服务器。所有对话仅在蓝牙范围内的设备之间直接传输。",
-    "s3.t": "3. 权限使用与可见性控制",
-    "s3.l1": "<strong>蓝牙</strong> — 用于发现和连接附近设备并收发消息。这是本应用的核心功能。",
-    "s3.l2": "<strong>位置权限（Android）</strong> — Android 操作系统要求位置权限才能扫描蓝牙设备。这是系统要求；本应用不收集、存储或传输您的地理位置。",
-    "s3.l3": "<strong>照片 / 相机</strong> — 仅在您设置头像或在对话中分享照片时，访问您所选择的图像。",
-    "s3.l4": "<strong>可被发现（Discovery）</strong> — 是否让附近用户发现您，由您自行选择。本应用仅在您同意后才通过蓝牙广播您的显示名称，您可随时使用顶部的天线按钮停止。本应用绝不会在地图上显示您。",
-    "s4.t": "4. 翻译",
-    "s4.p": "实时翻译用于将您发出的消息转换为对方的语言。翻译处理仅适用于消息文本，为翻译而提交的文本不会在传递对话之外被保留用于营销目的。",
-    "s5.t": "5. 数据保留与删除",
-    "s5.p": "对话内容和您的个人资料存储在您的设备上。您可以直接管理和删除：",
-    "s5.l1": "<strong>删除对话</strong> — 删除单个对话会将这些消息从您的设备中移除。",
-    "s5.l2": "<strong>屏蔽</strong> — 屏蔽特定用户，阻止其查看资料并接收消息。",
-    "s5.l3": "<strong>举报</strong> — 您可以在对话中举报不当内容或用户。举报将在 24 小时内审核并处理；违规内容将被删除，违规用户将被封禁。",
-    "s5.l4": "<strong>卸载</strong> — 卸载应用会一并删除设备上存储的相关数据。",
-    "s6.t": "6. 付款（应用内购买）",
-    "s6.p": "部分功能可能以应用内购买方式提供。付款通过 Apple App Store 或 Google Play 处理，付款信息由相应平台依据其各自的隐私政策处理。本应用不收集您的卡号等支付方式信息。",
-    "s7.t": "7. 年龄限制（18岁以上）",
-    "s7.p": "本应用面向 18 岁及以上的用户。由于用户可以与附近的陌生人聊天并交换照片，未满 18 岁者不得使用本应用。本应用不面向儿童，也不会故意收集儿童的个人信息。",
-    "s8.t": "8. 您的权利",
-    "s8.p": "您可以直接查看、修改和删除存储在设备上的个人信息。根据您所在地区的法律（如 GDPR、CCPA），您可能享有额外权利；相关请求请通过下方地址与我们联系。",
-    "s9.t": "9. 本政策的变更",
-    "s9.p": "我们可能会根据需要修订本政策。修订时，更新后的版本将连同新的「最后更新」日期发布在本页面。",
-    "s10.t": "10. 联系方式", "s10.p": "如对本隐私政策有任何疑问，请通过以下方式联系我们：",
-    "footer.copy": "© 2026 GGanbu Chat 保留所有权利。"
-  },
-  zh_TW: {
-    "meta.title": "隱私權政策 — GGanbu Chat", "meta.desc": "GGanbu Chat 隱私權政策",
-    "nav.back": "← 返回首頁", "badge": "隱私權政策", "title": "隱私權政策",
-    "updated": "最後更新：2026年7月7日",
-    "intro": "GGanbu Chat（以下簡稱「本應用程式」）重視您的隱私。本應用程式設計為無需中央伺服器，透過藍牙在裝置之間直接通訊。本政策說明本應用程式處理哪些資訊，以及這些資訊如何被處理與保護。",
-    "s1.t": "1. 我們處理的資訊",
-    "s1.p": "本應用程式在您的裝置上處理以下資訊，僅在聊天對象就在附近時透過藍牙直接傳送。",
-    "s1.l1": "<strong>個人檔案資訊</strong> — 顯示名稱，以及選填的大頭貼和電子郵件地址。僅在結為「깐부」（相互關注）後，您的電子郵件才可能分享給對方。",
-    "s1.l2": "<strong>訊息與圖片</strong> — 您在對話中收發的文字和影像，透過藍牙直接傳輸到附近的裝置。",
-    "s1.l3": "<strong>裝置識別碼</strong> — 在您的裝置上隨機產生的值，用於區分使用者。",
-    "s1.l4": "<strong>大致距離</strong> — 根據藍牙訊號強度（RSSI）估算的接近程度，我們不蒐集 GPS 位置座標。",
-    "s2.t": "2. 沒有伺服器",
-    "s2.p": "本應用程式無需註冊或帳號，我們不會將您的個人檔案、訊息或圖片上傳或儲存至我們營運的任何中央伺服器。所有對話僅在藍牙範圍內的裝置之間直接傳輸。",
-    "s3.t": "3. 權限使用與可見性控制",
-    "s3.l1": "<strong>藍牙</strong> — 用於探索和連接附近裝置並收發訊息。這是本應用程式的核心功能。",
-    "s3.l2": "<strong>位置權限（Android）</strong> — Android 作業系統要求位置權限才能掃描藍牙裝置。這是系統要求；本應用程式不蒐集、儲存或傳輸您的地理位置。",
-    "s3.l3": "<strong>照片 / 相機</strong> — 僅在您設定大頭貼或在對話中分享照片時，存取您所選擇的影像。",
-    "s3.l4": "<strong>可被發現（Discovery）</strong> — 是否讓附近使用者發現您，由您自行選擇。本應用程式僅在您同意後才透過藍牙廣播您的顯示名稱，您可隨時使用頂部的天線按鈕停止。本應用程式絕不會在地圖上顯示您。",
-    "s4.t": "4. 翻譯",
-    "s4.p": "即時翻譯用於將您發出的訊息轉換為對方的語言。翻譯處理僅適用於訊息文字，為翻譯而提交的文字不會在傳遞對話之外被保留用於行銷目的。",
-    "s5.t": "5. 資料保留與刪除",
-    "s5.p": "對話內容和您的個人檔案儲存在您的裝置上。您可以直接管理和刪除：",
-    "s5.l1": "<strong>刪除對話</strong> — 刪除單一對話會將這些訊息從您的裝置中移除。",
-    "s5.l2": "<strong>封鎖</strong> — 封鎖特定使用者，阻止其檢視檔案並接收訊息。",
-    "s5.l3": "<strong>檢舉</strong> — 您可以在對話中檢舉不當內容或使用者。檢舉將在 24 小時內審核並處理；違規內容將被刪除，違規使用者將被停權。",
-    "s5.l4": "<strong>解除安裝</strong> — 解除安裝應用程式會一併刪除裝置上儲存的相關資料。",
-    "s6.t": "6. 付款（應用程式內購買）",
-    "s6.p": "部分功能可能以應用程式內購買方式提供。付款透過 Apple App Store 或 Google Play 處理，付款資訊由相應平台依據其各自的隱私權政策處理。本應用程式不蒐集您的卡號等付款方式資訊。",
-    "s7.t": "7. 年齡限制（18 歲以上）",
-    "s7.p": "本應用程式面向 18 歲及以上的使用者。由於使用者可以與附近的陌生人聊天並交換照片，未滿 18 歲者不得使用本應用程式。本應用程式不以兒童為對象，也不會故意蒐集兒童的個人資訊。",
-    "s8.t": "8. 您的權利",
-    "s8.p": "您可以直接檢視、修改和刪除儲存在裝置上的個人資訊。根據您所在地區的法律（如 GDPR、CCPA），您可能享有額外權利；相關請求請透過下方地址與我們聯絡。",
-    "s9.t": "9. 本政策的變更",
-    "s9.p": "我們可能會視需要修訂本政策。修訂時，更新後的版本將連同新的「最後更新」日期發布在本頁面。",
-    "s10.t": "10. 聯絡方式", "s10.p": "如對本隱私權政策有任何疑問，請透過以下方式與我們聯絡：",
-    "footer.copy": "© 2026 GGanbu Chat 保留所有權利。"
-  },
-  th: {
-    "meta.title": "นโยบายความเป็นส่วนตัว — GGanbu Chat", "meta.desc": "นโยบายความเป็นส่วนตัวของ GGanbu Chat",
-    "nav.back": "← หน้าแรก", "badge": "นโยบายความเป็นส่วนตัว", "title": "นโยบายความเป็นส่วนตัว",
-    "updated": "อัปเดตล่าสุด: 7 กรกฎาคม 2026",
-    "intro": "GGanbu Chat (ต่อไปนี้เรียกว่า 'แอป') ให้ความสำคัญกับความเป็นส่วนตัวของคุณ แอปนี้ออกแบบให้สื่อสารโดยตรงระหว่างอุปกรณ์ผ่านบลูทูธ โดยไม่มีเซิร์ฟเวอร์กลาง นโยบายนี้อธิบายว่าแอปจัดการข้อมูลใดบ้าง และข้อมูลนั้นถูกประมวลผลและปกป้องอย่างไร",
-    "s1.t": "1. ข้อมูลที่เราจัดการ",
-    "s1.p": "แอปประมวลผลข้อมูลต่อไปนี้บนอุปกรณ์ของคุณ และจะส่งโดยตรงผ่านบลูทูธเฉพาะเมื่อมีคู่สนทนาอยู่ใกล้เท่านั้น",
-    "s1.l1": "<strong>ข้อมูลโปรไฟล์</strong> — ชื่อที่แสดง รวมถึงรูปโปรไฟล์และอีเมล (ไม่บังคับ) อีเมลของคุณอาจถูกแชร์ให้คู่สนทนาเฉพาะเมื่อคุณเป็น 깐부 (ความสนใจร่วมกัน) แล้วเท่านั้น",
-    "s1.l2": "<strong>ข้อความและรูปภาพ</strong> — ข้อความและภาพที่คุณรับส่งในการสนทนา ส่งโดยตรงไปยังอุปกรณ์ที่อยู่ใกล้เคียงผ่านบลูทูธ",
-    "s1.l3": "<strong>ตัวระบุอุปกรณ์</strong> — ค่าที่สร้างขึ้นแบบสุ่มบนอุปกรณ์ของคุณ ใช้เพื่อแยกแยะผู้ใช้",
-    "s1.l4": "<strong>ระยะทางโดยประมาณ</strong> — ความใกล้ที่ประมาณจากความแรงสัญญาณบลูทูธ (RSSI) เราไม่เก็บพิกัดตำแหน่ง GPS",
-    "s2.t": "2. ไม่มีเซิร์ฟเวอร์",
-    "s2.p": "แอปไม่ต้องสมัครสมาชิกหรือบัญชี และเราไม่อัปโหลดหรือจัดเก็บโปรไฟล์ ข้อความ หรือรูปภาพของคุณไว้บนเซิร์ฟเวอร์กลางใดๆ ที่เราดำเนินการ การสนทนาทั้งหมดเดินทางโดยตรงระหว่างอุปกรณ์ภายในระยะบลูทูธเท่านั้น",
-    "s3.t": "3. การใช้สิทธิ์และการควบคุมการมองเห็น",
-    "s3.l1": "<strong>บลูทูธ</strong> — ใช้เพื่อค้นหาและเชื่อมต่ออุปกรณ์ใกล้เคียงและรับส่งข้อความ เป็นฟังก์ชันหลักของแอป",
-    "s3.l2": "<strong>ตำแหน่ง (Android)</strong> — ระบบปฏิบัติการ Android กำหนดให้ต้องมีสิทธิ์ตำแหน่งเพื่อสแกนหาอุปกรณ์บลูทูธ นี่เป็นข้อกำหนดของระบบ แอปไม่เก็บ จัดเก็บ หรือส่งตำแหน่งทางภูมิศาสตร์ของคุณ",
-    "s3.l3": "<strong>รูปภาพ / กล้อง</strong> — เข้าถึงเฉพาะภาพที่คุณเลือกเท่านั้น เมื่อตั้งรูปโปรไฟล์หรือแชร์รูปในการสนทนา",
-    "s3.l4": "<strong>การถูกค้นพบ (Discovery)</strong> — คุณเป็นผู้เลือกว่าจะให้ผู้ใช้ที่อยู่ใกล้เคียงพบคุณหรือไม่ แอปจะประกาศชื่อที่แสดงของคุณผ่านบลูทูธหลังจากที่คุณยินยอมแล้วเท่านั้น และคุณสามารถหยุดได้ทุกเมื่อโดยใช้ปุ่มเสาอากาศที่ด้านบน แอปจะไม่แสดงคุณบนแผนที่",
-    "s4.t": "4. การแปลภาษา",
-    "s4.p": "การแปลแบบเรียลไทม์ใช้เพื่อแปลงข้อความที่คุณส่งออกเป็นภาษาของผู้รับ การประมวลผลการแปลใช้กับข้อความเท่านั้น และข้อความที่ส่งไปแปลจะไม่ถูกเก็บไว้เพื่อวัตถุประสงค์ทางการตลาดนอกเหนือจากการส่งต่อการสนทนา",
-    "s5.t": "5. การเก็บรักษาและการลบข้อมูล",
-    "s5.p": "การสนทนาและโปรไฟล์ของคุณถูกจัดเก็บไว้บนอุปกรณ์ของคุณ คุณสามารถจัดการและลบได้โดยตรง:",
-    "s5.l1": "<strong>ลบการสนทนา</strong> — การลบการสนทนาแต่ละรายการจะลบข้อความเหล่านั้นออกจากอุปกรณ์ของคุณ",
-    "s5.l2": "<strong>บล็อก</strong> — บล็อกผู้ใช้รายใดรายหนึ่งเพื่อป้องกันการแสดงโปรไฟล์และการรับข้อความ",
-    "s5.l3": "<strong>รายงาน</strong> — คุณสามารถรายงานเนื้อหาหรือผู้ใช้ที่ไม่เหมาะสมได้จากภายในการสนทนา รายงานจะได้รับการตรวจสอบและดำเนินการภายใน 24 ชั่วโมง เนื้อหาที่ละเมิดจะถูกลบและผู้ใช้ที่ละเมิดจะถูกระงับการใช้งาน",
-    "s5.l4": "<strong>ถอนการติดตั้ง</strong> — การถอนการติดตั้งแอปจะลบข้อมูลที่เกี่ยวข้องซึ่งจัดเก็บไว้บนอุปกรณ์ของคุณ",
-    "s6.t": "6. การชำระเงิน (การซื้อในแอป)",
-    "s6.p": "ฟีเจอร์บางอย่างอาจมีให้ในรูปแบบการซื้อในแอป การชำระเงินดำเนินการผ่าน Apple App Store หรือ Google Play และข้อมูลการชำระเงินจะถูกจัดการโดยแพลตฟอร์มเหล่านั้นตามนโยบายความเป็นส่วนตัวของตน แอปไม่เก็บหมายเลขบัตรหรือข้อมูลวิธีการชำระเงินอื่นๆ ของคุณ",
-    "s7.t": "7. ข้อจำกัดด้านอายุ (18 ปีขึ้นไป)",
-    "s7.p": "แอปนี้มีไว้สำหรับผู้ใช้ที่มีอายุ 18 ปีขึ้นไป เนื่องจากผู้ใช้สามารถสนทนาและแลกเปลี่ยนรูปภาพกับคนแปลกหน้าที่อยู่ใกล้เคียงได้ ผู้ที่มีอายุต่ำกว่า 18 ปีจึงไม่สามารถใช้แอปนี้ได้ แอปไม่ได้มุ่งเป้าไปที่เด็กและจะไม่เก็บข้อมูลส่วนบุคคลของเด็กโดยเจตนา",
-    "s8.t": "8. สิทธิของคุณ",
-    "s8.p": "คุณสามารถดู แก้ไข และลบข้อมูลของคุณที่จัดเก็บไว้บนอุปกรณ์ได้โดยตรง ขึ้นอยู่กับภูมิภาคของคุณ (เช่น GDPR, CCPA) คุณอาจมีสิทธิเพิ่มเติม สำหรับคำขอที่เกี่ยวข้อง โปรดติดต่อเราที่อยู่ด้านล่าง",
-    "s9.t": "9. การเปลี่ยนแปลงนโยบายนี้",
-    "s9.p": "เราอาจปรับปรุงนโยบายนี้ตามความจำเป็น เมื่อมีการปรับปรุง เวอร์ชันที่อัปเดตจะถูกเผยแพร่บนหน้านี้พร้อมกับวันที่ 'อัปเดตล่าสุด' ใหม่",
-    "s10.t": "10. ติดต่อ", "s10.p": "หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ โปรดติดต่อเราที่:",
-    "footer.copy": "© 2026 GGanbu Chat สงวนลิขสิทธิ์"
-  }
-};
-
-const LANGS = [
-  ["ko", "한국어"], ["en", "English"], ["ja", "日本語"],
-  ["zh_CN", "简体中文"], ["zh_TW", "繁體中文"], ["th", "ไทย"]
-];
-// keys whose value contains HTML markup (<strong> etc.)
-const HTML_KEYS = new Set([
-  "intro","s1.l1","s1.l2","s1.l3","s1.l4","s3.l1","s3.l2","s3.l3","s3.l4",
-  "s5.l1","s5.l2","s5.l3","s5.l4"
-]);
-
-function detectLang() {
-  const saved = localStorage.getItem("gganbu_lang");
-  if (saved && I18N[saved]) return saved;
-  const n = (navigator.language || "en").toLowerCase();
-  if (n.startsWith("ko")) return "ko";
-  if (n.startsWith("ja")) return "ja";
-  if (n.startsWith("th")) return "th";
-  if (n.startsWith("zh")) return (n.includes("tw") || n.includes("hk") || n.includes("hant")) ? "zh_TW" : "zh_CN";
-  return "en";
-}
-
-function applyLang(lang) {
-  const dict = I18N[lang] || I18N.en;
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    const val = dict[key];
-    if (val == null) return;
-    if (key === "meta.title") { document.title = val; return; }
-    if (key === "meta.desc") { const m = document.querySelector('meta[name="description"]'); if (m) m.setAttribute("content", val); return; }
-    if (HTML_KEYS.has(key)) el.innerHTML = val; else el.textContent = val;
-  });
-  document.documentElement.lang = lang.replace("_", "-");
-  localStorage.setItem("gganbu_lang", lang);
-  const sel = document.getElementById("langSelect");
-  if (sel) sel.value = lang;
-}
-
-(function init() {
-  const sel = document.getElementById("langSelect");
-  LANGS.forEach(([code, label]) => {
-    const o = document.createElement("option");
-    o.value = code; o.textContent = label; sel.appendChild(o);
-  });
-  sel.addEventListener("change", e => applyLang(e.target.value));
-  applyLang(detectLang());
-})();
-</script>
+<script type="module" src="i18n.js"></script>
 </body>
 </html>

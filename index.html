@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title data-i18n="meta.title">GGanbu Chat — 곁에 있는 사람과, 모든 언어로</title>
-<meta name="description" data-i18n="meta.desc" content="인터넷 없이 블루투스로 주변 사람과 실시간 번역 채팅. iOS와 Android가 함께 통하는 GGanbu Chat." />
+<title data-i18n="meta.title">GGanbu Chat — Talk to people nearby, in any language</title>
+<meta name="description" data-i18n="meta.desc" data-i18n-attr="content" content="Consent-based nearby chat over Bluetooth, with optional Ollama-powered translation. No account or central chat server. Available for adults on iOS and Android." />
 <link rel="icon" type="image/png" href="icon.png" />
 <link rel="apple-touch-icon" href="icon.png" />
-<meta property="og:title" content="GGanbu Chat" />
-<meta property="og:description" content="인터넷 없이 블루투스로 주변 사람과 실시간 번역 채팅. iOS와 Android가 함께 통하는 GGanbu Chat." />
+<meta property="og:title" data-i18n="meta.ogTitle" data-i18n-attr="content" content="GGanbu Chat — Talk to people nearby, in any language" />
+<meta property="og:description" data-i18n="meta.ogDesc" data-i18n-attr="content" content="Consent-based nearby chat over Bluetooth, with optional Ollama-powered translation. No account or central chat server. Available for adults on iOS and Android." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://fivestaraicompany.github.io/gganbu/icon.png" />
 <meta name="twitter:card" content="summary" />
@@ -171,30 +171,30 @@
   .foot .copy { color: var(--muted); font-size: 13px; width: 100%; padding-top: 14px; border-top: 1px solid var(--line); margin-top: 6px; }
 </style>
 </head>
-<body>
+<body data-i18n-page="index">
 <header>
   <div class="wrap nav">
     <a class="logo" href="#"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
     <nav class="nav-links">
-      <a href="#features" data-i18n="nav.features">기능</a>
-      <a href="#how" data-i18n="nav.how">사용법</a>
-      <a href="#languages" data-i18n="nav.languages">언어</a>
-      <a href="privacy.html" data-i18n="nav.privacy">개인정보</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <a href="#languages" data-i18n="nav.languages">Languages</a>
+      <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
     </nav>
-    <select id="langSelect" class="lang-select" aria-label="Language"></select>
+    <select id="langSelect" class="lang-select" aria-label="Language" data-i18n="language.selector" data-i18n-attr="aria-label"></select>
   </div>
 </header>
 
 <!-- Hero -->
 <section class="hero">
   <div class="wrap">
-    <span class="badge"><span class="dot"></span><span data-i18n="hero.badge">서버 없음 · 인터넷 없음 · 블루투스로 연결</span></span>
-    <h1 data-i18n="hero.title">곁에 있는 사람과,<br><span class="grad">모든 언어로</span> 대화하세요</h1>
-    <p class="sub" data-i18n="hero.sub">GGanbu Chat은 블루투스로 주변의 사람을 찾아, 서로 다른 언어를 실시간으로 번역하며 대화하는 근거리 채팅 앱입니다. iOS와 Android가 함께 통합니다.</p>
+    <span class="badge"><span class="dot"></span><span data-i18n="hero.badge">Direct Bluetooth chat · No account · No central chat server</span></span>
+    <h1 data-i18n="hero.title" data-i18n-html>Talk to people nearby,<br><span class='grad'>in any language</span></h1>
+    <p class="sub" data-i18n="hero.sub">GGanbu Chat lets adults choose people nearby and exchange messages directly over Bluetooth. Optional translation uses the Ollama-compatible endpoint you configure. iOS and Android work together.</p>
     <div class="cta">
-      <a class="btn primary" href="#download"><span>🍎</span><span><small data-i18n="hero.ios_small">다운로드</small><b data-i18n="hero.ios_b">App Store</b></span></a>
-      <a class="btn ghost" href="#download"><span>▶</span><span><small data-i18n="hero.and_small">다운로드</small><b data-i18n="hero.and_b">Google Play</b></span></a>
+      <a class="btn primary" href="#download"><span>🍎</span><span><small data-i18n="hero.ios_small">Download on the</small><b data-i18n="hero.ios_b">App Store</b></span></a>
+      <a class="btn ghost" href="#download"><span>▶</span><span><small data-i18n="hero.and_small">Get it on</small><b data-i18n="hero.and_b">Google Play</b></span></a>
     </div>
 
     <div class="mock">
@@ -204,13 +204,13 @@
             <div class="avatar"></div>
             <div>
               <div class="nm">Mina</div>
-              <div class="st" data-i18n="mock.status">● 근처에 있음</div>
+              <div class="st" data-i18n="mock.status">● Nearby</div>
             </div>
           </div>
           <div class="bubbles">
             <div class="bub in">안녕하세요!<span class="tr" data-i18n="mock.b1">Hello!</span></div>
-            <div class="bub out">Nice to meet you<span class="tr" data-i18n="mock.b2">만나서 반가워요</span></div>
-            <div class="bub in">どこから来ましたか？<span class="tr" data-i18n="mock.b3">어디서 오셨어요?</span></div>
+            <div class="bub out">Nice to meet you<span class="tr" data-i18n="mock.b2">Nice to meet you</span></div>
+            <div class="bub in">どこから来ましたか？<span class="tr" data-i18n="mock.b3">Where are you from?</span></div>
           </div>
         </div>
       </div>
@@ -221,16 +221,16 @@
 <!-- Features -->
 <section class="block" id="features">
   <div class="wrap">
-    <p class="eyebrow" data-i18n="features.eyebrow">기능</p>
-    <h2 data-i18n="features.title">대화를 가로막는 모든 벽을 없앴습니다</h2>
-    <p class="lead" data-i18n="features.lead">통신망도, 회원가입도 필요 없습니다. 전원을 켜고 곁에 있는 사람과 바로 연결되세요.</p>
+    <p class="eyebrow" data-i18n="features.eyebrow">Features</p>
+    <h2 data-i18n="features.title">Every barrier to conversation, removed</h2>
+    <p class="lead" data-i18n="features.lead">No account or central chat server. Core nearby chat is device to device; translation, purchases, and safety reports may use network or platform services.</p>
     <div class="grid">
-      <div class="card"><div class="ic">📡</div><h3 data-i18n="feat.1.t">인터넷 없이 연결</h3><p data-i18n="feat.1.d">블루투스 저전력(BLE)으로 주변 기기를 직접 찾아 연결합니다. 와이파이도, 데이터도, 중앙 서버도 필요 없습니다.</p></div>
-      <div class="card"><div class="ic">🌐</div><h3 data-i18n="feat.2.t">실시간 번역</h3><p data-i18n="feat.2.d">서로 다른 언어로 입력해도 상대의 언어로 자동 번역되어 전달됩니다. 원문과 번역문을 함께 볼 수 있습니다.</p></div>
-      <div class="card"><div class="ic">📱</div><h3 data-i18n="feat.3.t">iOS · Android 호환</h3><p data-i18n="feat.3.d">아이폰과 안드로이드가 같은 프로토콜로 통신합니다. 기기 종류와 상관없이 곁에 있는 누구와도 대화할 수 있습니다.</p></div>
-      <div class="card"><div class="ic">💞</div><h3 data-i18n="feat.4.t">깐부 맺기</h3><p data-i18n="feat.4.d">관심 하트를 보내고, 서로 응답하면 '깐부'가 됩니다. 마음이 통한 상대와 더 가까워지세요.</p></div>
-      <div class="card"><div class="ic">🖼️</div><h3 data-i18n="feat.5.t">사진 공유</h3><p data-i18n="feat.5.d">텍스트뿐 아니라 사진도 블루투스로 직접 주고받을 수 있습니다. 순간을 바로 함께 나누세요.</p></div>
-      <div class="card"><div class="ic">🔒</div><h3 data-i18n="feat.6.t">프라이버시 우선</h3><p data-i18n="feat.6.d">대화는 기기와 기기 사이에서만 오갑니다. 차단·삭제 기능도 제공합니다.</p></div>
+      <div class="card"><div class="ic">📡</div><h3 data-i18n="feat.1.t">Direct Bluetooth connection</h3><p data-i18n="feat.1.d">Bluetooth Low Energy (BLE) discovers and connects nearby devices directly. Core chats do not pass through a central chat server or require a mobile data plan.</p></div>
+      <div class="card"><div class="ic">🌐</div><h3 data-i18n="feat.2.t">Optional translation</h3><p data-i18n="feat.2.d">Connect an Ollama-compatible endpoint to translate messages into the recipient's language. The original and translated text are shown together; endpoint availability and privacy practices apply.</p></div>
+      <div class="card"><div class="ic">📱</div><h3 data-i18n="feat.3.t">iOS · Android compatible</h3><p data-i18n="feat.3.d">iPhone and Android use the same nearby protocol. You choose whom to contact from visible nearby profiles—there is no random chat matching.</p></div>
+      <div class="card"><div class="ic">💞</div><h3 data-i18n="feat.4.t">Become GGanbu</h3><p data-i18n="feat.4.d">Send an interest heart — when it's mutual, you become 'GGanbu' (best buddies). Get closer to people you click with.</p></div>
+      <div class="card"><div class="ic">🖼️</div><h3 data-i18n="feat.5.t">Photo sharing</h3><p data-i18n="feat.5.d">Send photos as well as text, directly over Bluetooth. Share the moment right away.</p></div>
+      <div class="card"><div class="ic">🔒</div><h3 data-i18n="feat.6.t">Privacy and safety controls</h3><p data-i18n="feat.6.d">Control when you are discoverable, delete local conversations, and block or report abusive users. GGanbu Chat is for adults aged 18 and older.</p></div>
     </div>
   </div>
 </section>
@@ -238,13 +238,13 @@
 <!-- How -->
 <section class="block" id="how" style="background:var(--bg-soft)">
   <div class="wrap">
-    <p class="eyebrow" data-i18n="how.eyebrow">사용법</p>
-    <h2 data-i18n="how.title">세 단계면 충분합니다</h2>
-    <p class="lead" data-i18n="how.lead">복잡한 설정 없이, 켜는 순간 시작됩니다.</p>
+    <p class="eyebrow" data-i18n="how.eyebrow">How it works</p>
+    <h2 data-i18n="how.title">Three simple steps</h2>
+    <p class="lead" data-i18n="how.lead">Set up a profile, choose when to be visible, and stay in control of each connection.</p>
     <div class="steps">
-      <div class="step"><div class="num"></div><h3 data-i18n="step.1.t">앱을 켜세요</h3><p data-i18n="step.1.d">이름과 사진으로 프로필을 만들고 블루투스를 켜면, 주변 탐색이 자동으로 시작됩니다.</p></div>
-      <div class="step"><div class="num"></div><h3 data-i18n="step.2.t">주변 사람을 찾으세요</h3><p data-i18n="step.2.d">카페, 도서관, 행사장 등 같은 공간의 사용자가 거리와 함께 목록에 나타납니다.</p></div>
-      <div class="step"><div class="num"></div><h3 data-i18n="step.3.t">대화를 시작하세요</h3><p data-i18n="step.3.d">메시지를 보내면 상대의 언어로 번역되어 전달됩니다. 관심을 보내 깐부를 맺어보세요.</p></div>
+      <div class="step"><div class="num"></div><h3 data-i18n="step.1.t">Set up your profile</h3><p data-i18n="step.1.d">Create a profile, grant the Bluetooth or Nearby devices permissions needed for direct chat, and choose when to become discoverable.</p></div>
+      <div class="step"><div class="num"></div><h3 data-i18n="step.2.t">Find people nearby</h3><p data-i18n="step.2.d">Discoverable adults in the same space — a café, library, or event — appear with an approximate proximity based on Bluetooth signal strength.</p></div>
+      <div class="step"><div class="num"></div><h3 data-i18n="step.3.t">Choose and start chatting</h3><p data-i18n="step.3.d">Select a nearby profile to chat directly. If translation is configured and available, your message can also arrive in the recipient's language.</p></div>
     </div>
   </div>
 </section>
@@ -252,9 +252,9 @@
 <!-- Languages -->
 <section class="block langs" id="languages">
   <div class="wrap">
-    <p class="eyebrow" data-i18n="lang.eyebrow">지원 언어</p>
-    <h2 data-i18n="lang.title">언어가 달라도 괜찮습니다</h2>
-    <p class="lead" data-i18n="lang.lead">GGanbu Chat은 다음 언어 간의 실시간 번역 대화를 지원합니다.</p>
+    <p class="eyebrow" data-i18n="lang.eyebrow">Supported languages</p>
+    <h2 data-i18n="lang.title">Different languages? No problem</h2>
+    <p class="lead" data-i18n="lang.lead">When a compatible translation endpoint is configured, GGanbu Chat supports translated conversations between these languages.</p>
     <div class="lang-chips">
       <span class="chip"><span class="fl">🇰🇷</span>한국어</span>
       <span class="chip"><span class="fl">🇺🇸</span>English</span>
@@ -270,11 +270,11 @@
 <section class="block cta-band" id="download">
   <div class="wrap">
     <div class="inner">
-      <h2 data-i18n="dl.title">지금 바로 시작하세요</h2>
-      <p class="lead" data-i18n="dl.lead">가까이 있는 사람과 언어의 벽 없이 연결되는 경험, GGanbu Chat에서 만나보세요.</p>
+      <h2 data-i18n="dl.title">Connect nearby, responsibly</h2>
+      <p class="lead" data-i18n="dl.lead">GGanbu Chat is for adults 18+. Review the in-app community rules, share thoughtfully, and use block or report whenever something feels unsafe.</p>
       <div class="cta">
-        <a class="btn primary" href="#"><span>🍎</span><span><small data-i18n="hero.ios_small">다운로드</small><b data-i18n="hero.ios_b">App Store</b></span></a>
-        <a class="btn ghost" href="#"><span>▶</span><span><small data-i18n="hero.and_small">다운로드</small><b data-i18n="hero.and_b">Google Play</b></span></a>
+        <a class="btn primary" href="#"><span>🍎</span><span><small data-i18n="hero.ios_small">Download on the</small><b data-i18n="hero.ios_b">App Store</b></span></a>
+        <a class="btn ghost" href="#"><span>▶</span><span><small data-i18n="hero.and_small">Get it on</small><b data-i18n="hero.and_b">Google Play</b></span></a>
       </div>
     </div>
   </div>
@@ -284,209 +284,13 @@
   <div class="wrap foot">
     <a class="logo" href="#"><img class="mark" src="icon.png" alt="GGanbu Chat" /><span>GGanbu Chat</span></a>
     <div class="spacer"></div>
-    <a href="#features" data-i18n="nav.features">기능</a>
-    <a href="privacy.html" data-i18n="nav.privacy">개인정보</a>
-    <a href="mailto:fivestaraicompany@gmail.com" data-i18n="footer.contact">문의</a>
-    <div class="copy"><span data-i18n="footer.copy">© 2026 GGanbu Chat. All rights reserved.  anton@fivestaraicorp.com </span></div>
+    <a href="#features" data-i18n="nav.features">Features</a>
+    <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
+    <a href="mailto:fivestaraicompany@gmail.com" data-i18n="footer.contact">Contact</a>
+    <div class="copy"><span data-i18n="footer.copy">© 2026 GGanbu Chat. All rights reserved.</span></div>
   </div>
 </footer>
 
-<script>
-const I18N = {
-  ko: {
-    "meta.title": "GGanbu Chat — 곁에 있는 사람과, 모든 언어로",
-    "meta.desc": "인터넷 없이 블루투스로 주변 사람과 실시간 번역 채팅. iOS와 Android가 함께 통하는 GGanbu Chat.",
-    "nav.features": "기능", "nav.how": "사용법", "nav.languages": "언어", "nav.privacy": "개인정보",
-    "hero.badge": "서버 없음 · 인터넷 없음 · 블루투스로 연결",
-    "hero.title": "곁에 있는 사람과,<br><span class='grad'>모든 언어로</span> 대화하세요",
-    "hero.sub": "GGanbu Chat은 블루투스로 주변의 사람을 찾아, 서로 다른 언어를 실시간으로 번역하며 대화하는 근거리 채팅 앱입니다. iOS와 Android가 함께 통합니다.",
-    "hero.ios_small": "다운로드", "hero.ios_b": "App Store", "hero.and_small": "다운로드", "hero.and_b": "Google Play",
-    "mock.status": "● 근처에 있음", "mock.b1": "Hello!", "mock.b2": "만나서 반가워요", "mock.b3": "어디서 오셨어요?",
-    "features.eyebrow": "기능", "features.title": "대화를 가로막는 모든 벽을 없앴습니다",
-    "features.lead": "통신망도, 회원가입도 필요 없습니다. 전원을 켜고 곁에 있는 사람과 바로 연결되세요.",
-    "feat.1.t": "인터넷 없이 연결", "feat.1.d": "블루투스 저전력(BLE)으로 주변 기기를 직접 찾아 연결합니다. 와이파이도, 데이터도, 중앙 서버도 필요 없습니다.",
-    "feat.2.t": "실시간 번역", "feat.2.d": "서로 다른 언어로 입력해도 상대의 언어로 자동 번역되어 전달됩니다. 원문과 번역문을 함께 볼 수 있습니다.",
-    "feat.3.t": "iOS · Android 호환", "feat.3.d": "아이폰과 안드로이드가 같은 프로토콜로 통신합니다. 기기 종류와 상관없이 곁에 있는 누구와도 대화할 수 있습니다.",
-    "feat.4.t": "깐부 맺기", "feat.4.d": "관심 하트를 보내고, 서로 응답하면 '깐부'가 됩니다. 마음이 통한 상대와 더 가까워지세요.",
-    "feat.5.t": "사진 공유", "feat.5.d": "텍스트뿐 아니라 사진도 블루투스로 직접 주고받을 수 있습니다. 순간을 바로 함께 나누세요.",
-    "feat.6.t": "프라이버시 우선", "feat.6.d": "대화는 기기와 기기 사이에서만 오갑니다. 차단·삭제 기능도 제공합니다.",
-    "how.eyebrow": "사용법", "how.title": "세 단계면 충분합니다", "how.lead": "복잡한 설정 없이, 켜는 순간 시작됩니다.",
-    "step.1.t": "앱을 켜세요", "step.1.d": "이름과 사진으로 프로필을 만들고 블루투스를 켜면, 주변 탐색이 자동으로 시작됩니다.",
-    "step.2.t": "주변 사람을 찾으세요", "step.2.d": "카페, 도서관, 행사장 등 같은 공간의 사용자가 거리와 함께 목록에 나타납니다.",
-    "step.3.t": "대화를 시작하세요", "step.3.d": "메시지를 보내면 상대의 언어로 번역되어 전달됩니다. 관심을 보내 깐부를 맺어보세요.",
-    "lang.eyebrow": "지원 언어", "lang.title": "언어가 달라도 괜찮습니다", "lang.lead": "GGanbu Chat은 다음 언어 간의 실시간 번역 대화를 지원합니다.",
-    "dl.title": "지금 바로 시작하세요", "dl.lead": "가까이 있는 사람과 언어의 벽 없이 연결되는 경험, GGanbu Chat에서 만나보세요.",
-    "footer.contact": "문의", "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
-  },
-  en: {
-    "meta.title": "GGanbu Chat — Talk to people nearby, in any language",
-    "meta.desc": "Real-time translated chat with people around you over Bluetooth — no internet needed. iOS and Android work together with GGanbu Chat.",
-    "nav.features": "Features", "nav.how": "How it works", "nav.languages": "Languages", "nav.privacy": "Privacy",
-    "hero.badge": "No server · No internet · Connected over Bluetooth",
-    "hero.title": "Talk to people nearby,<br><span class='grad'>in any language</span>",
-    "hero.sub": "GGanbu Chat finds people around you over Bluetooth and translates between languages in real time. iOS and Android talk to each other seamlessly.",
-    "hero.ios_small": "Download on the", "hero.ios_b": "App Store", "hero.and_small": "Get it on", "hero.and_b": "Google Play",
-    "mock.status": "● Nearby", "mock.b1": "Hello!", "mock.b2": "Nice to meet you", "mock.b3": "Where are you from?",
-    "features.eyebrow": "Features", "features.title": "Every barrier to conversation, removed",
-    "features.lead": "No network, no sign-up. Turn it on and connect with people right beside you.",
-    "feat.1.t": "Connect without internet", "feat.1.d": "Bluetooth Low Energy (BLE) finds and connects nearby devices directly. No Wi-Fi, no data plan, no central server.",
-    "feat.2.t": "Real-time translation", "feat.2.d": "Type in your own language and it arrives translated into theirs. Both the original and the translation are shown.",
-    "feat.3.t": "iOS · Android compatible", "feat.3.d": "iPhone and Android speak the same protocol. Chat with anyone nearby, no matter what device they carry.",
-    "feat.4.t": "Become GGanbu", "feat.4.d": "Send an interest heart — when it's mutual, you become 'GGanbu' (best buddies). Get closer to people you click with.",
-    "feat.5.t": "Photo sharing", "feat.5.d": "Send photos as well as text, directly over Bluetooth. Share the moment right away.",
-    "feat.6.t": "Privacy first", "feat.6.d": "Conversations stay between devices only. Block and delete are supported too.",
-    "how.eyebrow": "How it works", "how.title": "Three simple steps", "how.lead": "No complicated setup — it starts the moment you turn it on.",
-    "step.1.t": "Open the app", "step.1.d": "Create a profile with your name and photo, turn on Bluetooth, and nearby discovery begins automatically.",
-    "step.2.t": "Find people nearby", "step.2.d": "Users in the same space — a café, library, or event — appear in your list along with their distance.",
-    "step.3.t": "Start chatting", "step.3.d": "Your message arrives translated into their language. Send an interest to become GGanbu.",
-    "lang.eyebrow": "Supported languages", "lang.title": "Different languages? No problem", "lang.lead": "GGanbu Chat supports real-time translated conversation between these languages.",
-    "dl.title": "Get started now", "dl.lead": "Experience connecting with people nearby without a language barrier — on GGanbu Chat.",
-    "footer.contact": "Contact", "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
-  },
-  ja: {
-    "meta.title": "GGanbu Chat — そばにいる人と、すべての言語で",
-    "meta.desc": "インターネットなしで、Bluetoothで近くの人とリアルタイム翻訳チャット。iOSとAndroidがつながるGGanbu Chat。",
-    "nav.features": "機能", "nav.how": "使い方", "nav.languages": "言語", "nav.privacy": "プライバシー",
-    "hero.badge": "サーバー不要 · インターネット不要 · Bluetoothで接続",
-    "hero.title": "そばにいる人と、<br><span class='grad'>すべての言語で</span>話そう",
-    "hero.sub": "GGanbu ChatはBluetoothで近くの人を見つけ、異なる言語をリアルタイムに翻訳しながら会話する近距離チャットアプリです。iOSとAndroidがそのままつながります。",
-    "hero.ios_small": "ダウンロード", "hero.ios_b": "App Store", "hero.and_small": "ダウンロード", "hero.and_b": "Google Play",
-    "mock.status": "● 近くにいます", "mock.b1": "Hello!", "mock.b2": "はじめまして", "mock.b3": "どこから来ましたか？",
-    "features.eyebrow": "機能", "features.title": "会話を阻むすべての壁をなくしました",
-    "features.lead": "通信回線も会員登録も不要。電源を入れて、すぐそばの人とつながりましょう。",
-    "feat.1.t": "インターネット不要で接続", "feat.1.d": "Bluetooth Low Energy（BLE）で近くの端末を直接見つけて接続します。Wi-Fiもデータ通信も中央サーバーも不要です。",
-    "feat.2.t": "リアルタイム翻訳", "feat.2.d": "異なる言語で入力しても、相手の言語に自動翻訳して届きます。原文と翻訳文の両方を確認できます。",
-    "feat.3.t": "iOS · Android 対応", "feat.3.d": "iPhoneとAndroidが同じプロトコルで通信します。端末の種類に関係なく、そばにいる誰とでも会話できます。",
-    "feat.4.t": "ッカンブになる", "feat.4.d": "関心のハートを送り、お互いに応えると「ッカンブ（親友）」になります。気の合う相手ともっと仲良く。",
-    "feat.5.t": "写真の共有", "feat.5.d": "テキストだけでなく写真もBluetoothで直接やり取りできます。その瞬間をすぐに分かち合えます。",
-    "feat.6.t": "プライバシー優先", "feat.6.d": "会話は端末と端末の間だけでやり取りされます。ブロック・削除にも対応しています。",
-    "how.eyebrow": "使い方", "how.title": "3ステップで十分です", "how.lead": "複雑な設定なし、オンにした瞬間に始まります。",
-    "step.1.t": "アプリを開く", "step.1.d": "名前と写真でプロフィールを作り、Bluetoothをオンにすると、周辺の探索が自動で始まります。",
-    "step.2.t": "近くの人を見つける", "step.2.d": "カフェ、図書館、イベント会場など同じ空間のユーザーが、距離とともにリストに表示されます。",
-    "step.3.t": "会話を始める", "step.3.d": "メッセージは相手の言語に翻訳されて届きます。関心を送ってッカンブになりましょう。",
-    "lang.eyebrow": "対応言語", "lang.title": "言語が違っても大丈夫", "lang.lead": "GGanbu Chatは次の言語間のリアルタイム翻訳会話に対応しています。",
-    "dl.title": "今すぐ始めよう", "dl.lead": "近くの人と言葉の壁なくつながる体験を、GGanbu Chatで。",
-    "footer.contact": "お問い合わせ", "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
-  },
-  zh_CN: {
-    "meta.title": "GGanbu Chat — 与身边的人，用任何语言交谈",
-    "meta.desc": "无需网络，通过蓝牙与附近的人实时翻译聊天。iOS 与 Android 互通的 GGanbu Chat。",
-    "nav.features": "功能", "nav.how": "使用方法", "nav.languages": "语言", "nav.privacy": "隐私",
-    "hero.badge": "无服务器 · 无需网络 · 通过蓝牙连接",
-    "hero.title": "与身边的人，<br><span class='grad'>用任何语言</span>交谈",
-    "hero.sub": "GGanbu Chat 通过蓝牙发现附近的人，并实时翻译不同语言进行对话的近距离聊天应用。iOS 与 Android 无缝互通。",
-    "hero.ios_small": "下载于", "hero.ios_b": "App Store", "hero.and_small": "获取于", "hero.and_b": "Google Play",
-    "mock.status": "● 在附近", "mock.b1": "Hello!", "mock.b2": "很高兴认识你", "mock.b3": "你从哪里来？",
-    "features.eyebrow": "功能", "features.title": "消除一切阻碍交流的壁垒",
-    "features.lead": "无需通信网络，无需注册。打开应用，立即与身边的人连接。",
-    "feat.1.t": "无需网络即可连接", "feat.1.d": "通过低功耗蓝牙（BLE）直接发现并连接附近设备。无需 Wi-Fi、无需流量、无需中央服务器。",
-    "feat.2.t": "实时翻译", "feat.2.d": "即使用不同语言输入，也会自动翻译成对方的语言发送。可同时查看原文与译文。",
-    "feat.3.t": "iOS · Android 互通", "feat.3.d": "iPhone 与 Android 使用相同协议通信。无论使用何种设备，都能与身边的任何人交谈。",
-    "feat.4.t": "结为「깐부」", "feat.4.d": "发送兴趣爱心，双方互相回应即成为「깐부」（挚友）。与志同道合的人更加亲近。",
-    "feat.5.t": "图片分享", "feat.5.d": "不仅是文字，图片也可通过蓝牙直接互传。即刻分享当下的瞬间。",
-    "feat.6.t": "隐私优先", "feat.6.d": "对话仅在设备之间传输。还支持屏蔽与删除。",
-    "how.eyebrow": "使用方法", "how.title": "三步即可", "how.lead": "无需复杂设置，开启即用。",
-    "step.1.t": "打开应用", "step.1.d": "用姓名和照片创建个人资料，开启蓝牙后即自动开始搜索附近的人。",
-    "step.2.t": "发现附近的人", "step.2.d": "咖啡馆、图书馆、活动现场等同一空间的用户会连同距离一起显示在列表中。",
-    "step.3.t": "开始对话", "step.3.d": "发送的消息会翻译成对方的语言送达。发送兴趣即可结为「깐부」。",
-    "lang.eyebrow": "支持语言", "lang.title": "语言不同也没关系", "lang.lead": "GGanbu Chat 支持以下语言之间的实时翻译对话。",
-    "dl.title": "立即开始", "dl.lead": "在 GGanbu Chat 体验与身边的人无语言障碍地连接。",
-    "footer.contact": "联系我们", "footer.copy": "© 2026 GGanbu Chat 保留所有权利。"
-  },
-  zh_TW: {
-    "meta.title": "GGanbu Chat — 與身邊的人，用任何語言交談",
-    "meta.desc": "無需網路，透過藍牙與附近的人即時翻譯聊天。iOS 與 Android 互通的 GGanbu Chat。",
-    "nav.features": "功能", "nav.how": "使用方法", "nav.languages": "語言", "nav.privacy": "隱私",
-    "hero.badge": "無伺服器 · 無需網路 · 透過藍牙連線",
-    "hero.title": "與身邊的人，<br><span class='grad'>用任何語言</span>交談",
-    "hero.sub": "GGanbu Chat 透過藍牙發現附近的人，並即時翻譯不同語言進行對話的近距離聊天應用程式。iOS 與 Android 無縫互通。",
-    "hero.ios_small": "下載於", "hero.ios_b": "App Store", "hero.and_small": "取得於", "hero.and_b": "Google Play",
-    "mock.status": "● 在附近", "mock.b1": "Hello!", "mock.b2": "很高興認識你", "mock.b3": "你從哪裡來？",
-    "features.eyebrow": "功能", "features.title": "消除一切阻礙交流的壁壘",
-    "features.lead": "無需通訊網路，無需註冊。開啟應用程式，立即與身邊的人連線。",
-    "feat.1.t": "無需網路即可連線", "feat.1.d": "透過低功耗藍牙（BLE）直接發現並連接附近裝置。無需 Wi-Fi、無需行動數據、無需中央伺服器。",
-    "feat.2.t": "即時翻譯", "feat.2.d": "即使用不同語言輸入，也會自動翻譯成對方的語言傳送。可同時檢視原文與譯文。",
-    "feat.3.t": "iOS · Android 互通", "feat.3.d": "iPhone 與 Android 使用相同協定通訊。無論使用何種裝置，都能與身邊的任何人交談。",
-    "feat.4.t": "結為「깐부」", "feat.4.d": "發送興趣愛心，雙方互相回應即成為「깐부」（摯友）。與志同道合的人更加親近。",
-    "feat.5.t": "圖片分享", "feat.5.d": "不僅是文字，圖片也可透過藍牙直接互傳。即刻分享當下的瞬間。",
-    "feat.6.t": "隱私優先", "feat.6.d": "對話僅在裝置之間傳輸。還支援封鎖與刪除。",
-    "how.eyebrow": "使用方法", "how.title": "三步即可", "how.lead": "無需複雜設定，開啟即用。",
-    "step.1.t": "開啟應用程式", "step.1.d": "用姓名和照片建立個人檔案，開啟藍牙後即自動開始搜尋附近的人。",
-    "step.2.t": "發現附近的人", "step.2.d": "咖啡廳、圖書館、活動現場等同一空間的使用者會連同距離一起顯示在清單中。",
-    "step.3.t": "開始對話", "step.3.d": "發送的訊息會翻譯成對方的語言送達。發送興趣即可結為「깐부」。",
-    "lang.eyebrow": "支援語言", "lang.title": "語言不同也沒關係", "lang.lead": "GGanbu Chat 支援以下語言之間的即時翻譯對話。",
-    "dl.title": "立即開始", "dl.lead": "在 GGanbu Chat 體驗與身邊的人無語言障礙地連線。",
-    "footer.contact": "聯絡我們", "footer.copy": "© 2026 GGanbu Chat 保留所有權利。"
-  },
-  th: {
-    "meta.title": "GGanbu Chat — คุยกับคนรอบตัว ด้วยทุกภาษา",
-    "meta.desc": "แชทแปลภาษาแบบเรียลไทม์กับคนใกล้ตัวผ่านบลูทูธ โดยไม่ต้องใช้อินเทอร์เน็ต iOS และ Android เชื่อมต่อถึงกันด้วย GGanbu Chat",
-    "nav.features": "ฟีเจอร์", "nav.how": "วิธีใช้", "nav.languages": "ภาษา", "nav.privacy": "ความเป็นส่วนตัว",
-    "hero.badge": "ไม่มีเซิร์ฟเวอร์ · ไม่ต้องใช้อินเทอร์เน็ต · เชื่อมต่อผ่านบลูทูธ",
-    "hero.title": "คุยกับคนรอบตัว<br><span class='grad'>ด้วยทุกภาษา</span>",
-    "hero.sub": "GGanbu Chat ค้นหาคนรอบตัวผ่านบลูทูธ และแปลภาษาแบบเรียลไทม์ระหว่างการสนทนา iOS และ Android คุยกันได้อย่างไร้รอยต่อ",
-    "hero.ios_small": "ดาวน์โหลดบน", "hero.ios_b": "App Store", "hero.and_small": "ดาวน์โหลดที่", "hero.and_b": "Google Play",
-    "mock.status": "● อยู่ใกล้ๆ", "mock.b1": "Hello!", "mock.b2": "ยินดีที่ได้รู้จัก", "mock.b3": "คุณมาจากไหน?",
-    "features.eyebrow": "ฟีเจอร์", "features.title": "ขจัดทุกกำแพงที่ขวางการสนทนา",
-    "features.lead": "ไม่ต้องใช้เครือข่าย ไม่ต้องสมัครสมาชิก เปิดแล้วเชื่อมต่อกับคนข้างตัวได้ทันที",
-    "feat.1.t": "เชื่อมต่อโดยไม่ต้องใช้เน็ต", "feat.1.d": "บลูทูธพลังงานต่ำ (BLE) ค้นหาและเชื่อมต่ออุปกรณ์ใกล้เคียงโดยตรง ไม่ต้องใช้ Wi-Fi ไม่ต้องใช้ดาต้า ไม่ต้องมีเซิร์ฟเวอร์กลาง",
-    "feat.2.t": "แปลภาษาแบบเรียลไทม์", "feat.2.d": "พิมพ์ด้วยภาษาของคุณเอง ข้อความจะถูกแปลเป็นภาษาของอีกฝ่ายโดยอัตโนมัติ แสดงทั้งต้นฉบับและคำแปล",
-    "feat.3.t": "รองรับ iOS · Android", "feat.3.d": "iPhone และ Android สื่อสารด้วยโปรโตคอลเดียวกัน คุยกับใครก็ได้ที่อยู่ใกล้ ไม่ว่าจะใช้อุปกรณ์ใด",
-    "feat.4.t": "เป็น「깐부」กัน", "feat.4.d": "ส่งหัวใจแสดงความสนใจ เมื่อทั้งสองฝ่ายตอบรับก็จะกลายเป็น「깐부」(เพื่อนซี้) ใกล้ชิดกับคนที่ถูกคอมากขึ้น",
-    "feat.5.t": "แชร์รูปภาพ", "feat.5.d": "นอกจากข้อความแล้ว ยังส่งรูปภาพผ่านบลูทูธได้โดยตรง แบ่งปันช่วงเวลานั้นได้ทันที",
-    "feat.6.t": "ความเป็นส่วนตัวมาก่อน", "feat.6.d": "การสนทนาเกิดขึ้นระหว่างอุปกรณ์เท่านั้น รองรับการบล็อกและลบด้วย",
-    "how.eyebrow": "วิธีใช้", "how.title": "เพียงสามขั้นตอน", "how.lead": "ไม่ต้องตั้งค่ายุ่งยาก เปิดปุ๊บเริ่มได้ปั๊บ",
-    "step.1.t": "เปิดแอป", "step.1.d": "สร้างโปรไฟล์ด้วยชื่อและรูปภาพ เปิดบลูทูธ แล้วการค้นหาคนรอบตัวจะเริ่มโดยอัตโนมัติ",
-    "step.2.t": "ค้นหาคนใกล้เคียง", "step.2.d": "ผู้ใช้ในพื้นที่เดียวกัน เช่น คาเฟ่ ห้องสมุด หรืองานอีเวนต์ จะปรากฏในรายการพร้อมระยะทาง",
-    "step.3.t": "เริ่มสนทนา", "step.3.d": "ข้อความของคุณจะถูกแปลเป็นภาษาของอีกฝ่าย ส่งความสนใจเพื่อเป็น 깐부 กัน",
-    "lang.eyebrow": "ภาษาที่รองรับ", "lang.title": "ต่างภาษากันก็ไม่เป็นไร", "lang.lead": "GGanbu Chat รองรับการสนทนาแปลภาษาแบบเรียลไทม์ระหว่างภาษาต่อไปนี้",
-    "dl.title": "เริ่มเลยตอนนี้", "dl.lead": "สัมผัสประสบการณ์การเชื่อมต่อกับคนรอบตัวโดยไร้กำแพงภาษา บน GGanbu Chat",
-    "footer.contact": "ติดต่อ", "footer.copy": "© 2026 GGanbu Chat สงวนลิขสิทธิ์"
-  }
-};
-
-const LANGS = [
-  ["ko", "한국어"], ["en", "English"], ["ja", "日本語"],
-  ["zh_CN", "简体中文"], ["zh_TW", "繁體中文"], ["th", "ไทย"]
-];
-const HTML_KEYS = new Set(["hero.title"]);
-
-function detectLang() {
-  const saved = localStorage.getItem("gganbu_lang");
-  if (saved && I18N[saved]) return saved;
-  const n = (navigator.language || "en").toLowerCase();
-  if (n.startsWith("ko")) return "ko";
-  if (n.startsWith("ja")) return "ja";
-  if (n.startsWith("th")) return "th";
-  if (n.startsWith("zh")) return (n.includes("tw") || n.includes("hk") || n.includes("hant")) ? "zh_TW" : "zh_CN";
-  return "en";
-}
-
-function applyLang(lang) {
-  const dict = I18N[lang] || I18N.en;
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    const val = dict[key];
-    if (val == null) return;
-    if (key === "meta.title") { document.title = val; return; }
-    if (key === "meta.desc") { const m = document.querySelector('meta[name="description"]'); if (m) m.setAttribute("content", val); return; }
-    if (HTML_KEYS.has(key)) el.innerHTML = val; else el.textContent = val;
-  });
-  document.documentElement.lang = lang.replace("_", "-");
-  localStorage.setItem("gganbu_lang", lang);
-  const sel = document.getElementById("langSelect");
-  if (sel) sel.value = lang;
-}
-
-(function init() {
-  const sel = document.getElementById("langSelect");
-  LANGS.forEach(([code, label]) => {
-    const o = document.createElement("option");
-    o.value = code; o.textContent = label; sel.appendChild(o);
-  });
-  sel.addEventListener("change", e => applyLang(e.target.value));
-  applyLang(detectLang());
-})();
-</script>
+<script type="module" src="i18n.js"></script>
 </body>
 </html>
