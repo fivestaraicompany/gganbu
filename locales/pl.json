@@ -40,6 +40,7 @@
     "feat.5.t": "Podziel się tą chwilą",
     "feat.5.d": "Przesyłaj zdjęcia oraz tekst bezpośrednio przez Bluetooth i dziel się codziennymi chwilami z ludźmi, którym ufasz.",
     "feat.6.t": "Bezpieczeństwo w Twoich rękach",
+    "feat.6.d": "Wybierz, kiedy chcesz być widoczny, usuwaj lokalne rozmowy oraz blokuj lub zgłaszaj użytkowników naruszających zasady. GGanbu Chat jest przeznaczony dla osób dorosłych w wieku 18 lat i więcej.",
     "how.eyebrow": "Jak to działa",
     "how.title": "Masz pełną kontrolę od pierwszego powitania.",
     "how.lead": "Skonfiguruj profil, wybierz czas swojej widoczności i zdecyduj, z kim chcesz rozmawiać.",
@@ -47,7 +48,6 @@
     "step.1.d": "Utwórz profil, przyznaj uprawnienia niezbędne do czatu w pobliżu i wybierz, kiedy chcesz stać się widoczny.",
     "step.2.t": "Zobacz osoby w pobliżu",
     "step.2.d": "Widoczni dorośli w tej samej kawiarni, bibliotece, na wydarzeniu lub w przestrzeni wspólnej pojawiają się wraz z przybliżoną odległością Bluetooth.",
-    "feat.6.d": "Wybierz, kiedy chcesz być widoczny, usuwaj lokalne rozmowy oraz blokuj lub zgłaszaj użytkowników naruszających zasady. GGanbu Chat jest przeznaczony dla osób dorosłych w wieku 18 lat i więcej.",
     "step.3.t": "Wybierz i przywitaj się",
     "step.3.d": "Wybierz profil w pobliżu i rozpocznij bezpośrednią rozmowę. Opcjonalne tłumaczenie może pomóc obu osobom poczuć się zrozumianymi.",
     "lang.eyebrow": "Rozmowa bez granic",
@@ -55,6 +55,7 @@
     "lang.lead": "Po skonfigurowaniu kompatybilnego punktu końcowego tłumaczenia, GGanbu Chat może pomóc w tłumaczeniu rozmów, zachowując widoczność oryginalnej wiadomości.",
     "dl.eyebrow": "Rozpocznij dobrą rozmowę",
     "dl.title": "Twoje następne GGanbu może być w pobliżu.",
+    "dl.lead": "Pobierz GGanbu Chat na iOS lub Androida i nawiąż kontakt z osobami w okolicy — z szacunkiem i odpowiedzialnie. Tylko dla osób dorosłych, od 18 lat.",
     "footer.contact": "Kontakt",
     "footer.copy": "© 2026 GGanbu Chat. Wszelkie prawa zastrzeżone."
   },

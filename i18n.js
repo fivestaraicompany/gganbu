@@ -11,6 +11,94 @@ const SUPPORTED_LANGUAGES = [
   "es-MX", "fr-CA", "ca", "nb"
 ];
 
+// Each language is labelled in its own language so speakers can recognize it
+// without knowing the ISO code.
+const LANGUAGE_NAMES = new Map([
+  ["af", "Afrikaans"],
+  ["am", "አማርኛ"],
+  ["ar", "العربية"],
+  ["az", "Azərbaycan dili"],
+  ["be", "Беларуская"],
+  ["bg", "Български"],
+  ["bn", "বাংলা"],
+  ["bs", "Bosanski"],
+  ["ca", "Català"],
+  ["cs", "Čeština"],
+  ["da", "Dansk"],
+  ["de", "Deutsch"],
+  ["el", "Ελληνικά"],
+  ["en", "English"],
+  ["es", "Español"],
+  ["es-MX", "Español (México)"],
+  ["es-US", "Español (Estados Unidos)"],
+  ["et", "Eesti"],
+  ["fa", "فارسی"],
+  ["fi", "Suomi"],
+  ["fil", "Filipino"],
+  ["fr", "Français"],
+  ["fr-CA", "Français (Canada)"],
+  ["gu", "ગુજરાતી"],
+  ["ha", "Hausa"],
+  ["he", "עברית"],
+  ["hi", "हिन्दी"],
+  ["hr", "Hrvatski"],
+  ["hu", "Magyar"],
+  ["hy", "Հայերեն"],
+  ["id", "Bahasa Indonesia"],
+  ["ig", "Asụsụ Igbo"],
+  ["it", "Italiano"],
+  ["ja", "日本語"],
+  ["ka", "ქართული"],
+  ["kk", "Қазақ тілі"],
+  ["kn", "ಕನ್ನಡ"],
+  ["ko", "한국어"],
+  ["ln", "Lingála"],
+  ["lt", "Lietuvių"],
+  ["lv", "Latviešu"],
+  ["mk", "Македонски"],
+  ["ml", "മലയാളം"],
+  ["mn", "Монгол"],
+  ["mr", "मराठी"],
+  ["ms", "Bahasa Melayu"],
+  ["my", "မြန်မာ"],
+  ["nb", "Norsk bokmål"],
+  ["ne", "नेपाली"],
+  ["nl", "Nederlands"],
+  ["om", "Afaan Oromoo"],
+  ["or", "ଓଡ଼ିଆ"],
+  ["pa", "ਪੰਜਾਬੀ"],
+  ["pcm", "Naijá"],
+  ["pl", "Polski"],
+  ["pt-BR", "Português (Brasil)"],
+  ["pt-PT", "Português (Portugal)"],
+  ["ro", "Română"],
+  ["ru", "Русский"],
+  ["rw", "Ikinyarwanda"],
+  ["si", "සිංහල"],
+  ["sk", "Slovenčina"],
+  ["sl", "Slovenščina"],
+  ["so", "Soomaali"],
+  ["sq", "Shqip"],
+  ["sr", "Српски"],
+  ["st", "Sesotho"],
+  ["sv", "Svenska"],
+  ["sw", "Kiswahili"],
+  ["ta", "தமிழ்"],
+  ["te", "తెలుగు"],
+  ["th", "ไทย"],
+  ["ti", "ትግርኛ"],
+  ["tr", "Türkçe"],
+  ["ts", "Xitsonga"],
+  ["uk", "Українська"],
+  ["ur", "اردو"],
+  ["vi", "Tiếng Việt"],
+  ["yo", "Èdè Yorùbá"],
+  ["zh-Hans", "简体中文"],
+  ["zh-Hant", "繁體中文"],
+  ["zh-HK", "繁體中文（香港）"],
+  ["zu", "isiZulu"]
+]);
+
 const SUPPORTED_BY_NORMALIZED_CODE = new Map(
   SUPPORTED_LANGUAGES.map(code => [code.toLowerCase(), code])
 );
@@ -34,6 +122,18 @@ let applySequence = 0;
 
 function normalizeLanguageCode(code) {
   return String(code || "").trim().replaceAll("_", "-").toLowerCase();
+}
+
+function languageLabel(code) {
+  const name = LANGUAGE_NAMES.get(code);
+  if (name) return name;
+
+  try {
+    const display = new Intl.DisplayNames([code], { type: "language" });
+    return display.of(code) || code;
+  } catch {
+    return code;
+  }
 }
 
 function resolveLanguage(code) {
@@ -162,10 +262,15 @@ function initializeLanguageSelector() {
   const selector = document.getElementById("langSelect");
   if (!selector) return;
 
-  for (const code of SUPPORTED_LANGUAGES) {
+  const collator = new Intl.Collator(undefined, { sensitivity: "base" });
+  const entries = SUPPORTED_LANGUAGES
+    .map(code => ({ code, label: languageLabel(code) }))
+    .sort((a, b) => collator.compare(a.label, b.label));
+
+  for (const { code, label } of entries) {
     const option = document.createElement("option");
     option.value = code;
-    option.textContent = code;
+    option.textContent = label;
     selector.appendChild(option);
   }
 

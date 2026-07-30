@@ -27,7 +27,7 @@
     "meaning.p2": "Clear control for visibility, blocking, and reporting",
     "meaning.p3": "No random matching or pressure to reply",
     "features.eyebrow": "E design so that people fit talk better",
-    "features.title": "Simple technology. Human connection.",
+    "features.title": "Simple teknology. Human connection.",
     "features.lead": "GGanbu Chat make talking with people wey dey near you direct, and e give you better tools to connect well.",
     "feat.1.t": "Direct chat with people wey dey near you",
     "feat.1.d": "Bluetooth Low Energy dey help devices wey dey near each other find and connect direct. The main chats no dey pass through any central chat server.",
@@ -57,7 +57,7 @@
     "dl.title": "Your next GGanbu fit dey near you.",
     "dl.lead": "Download GGanbu Chat for iOS or Android to connect with people wey dey near you in a respectful and responsible way. Na for adults 18+.",
     "footer.contact": "Contact",
-    "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
+    "footer.copy": "© 2026 GGanbu Chat. Na dem get all di rights."
   },
   "privacy": {
     "meta.title": "Privacy Policy — GGanbu Chat",
@@ -66,7 +66,7 @@
     "nav.back": "← Home",
     "badge": "Privacy Policy",
     "title": "Privacy Policy",
-    "updated": "Last updated: July 18, 2026",
+    "updated": "Last update: 18 July, 2026",
     "intro": "GGanbu Chat (\"di app,\" \"we,\" \"us,\" or \"our\") na nearby communication app wey di developer wey dey for app-store listing provide. Core chats dey go straight from one device to another through Bluetooth, no be through central chat server. Some other things you fit choose to do, like translation, safety reports, and in-app purchases, dey use network or platform services as we explain below. Dis Privacy Policy go tell you which information we dey handle, why we need am, who we fit share am with, how long we go keep am, and di choices wey you get.",
     "s1.t": "1. Information wey we dey handle",
     "s1.p": "Depending on di things wey you choose for di app, na dis kind information di app dey handle:",
@@ -76,14 +76,14 @@
     "s1.l4": "<strong>Report, app, and purchase information</strong> — one report fit get di name of di person wey report and di person wey dem report, reporter email, why dem report and di time, app version, and encrypted copy of di reported user's app identifier. Apple or Google fit give purchase status and transaction identifiers wey needed to complete or bring back in-app purchase.",
     "s2.t": "2. How we dey use and share information",
     "s2.p": "We only dey use information to help you find people near you and make devices talk to each other, do the translation wey you ask for, finish buy-buy things, stop bad behavior, answer reports and help requests, and follow the law. Your profile info and wetin you chat dey share only with people near you wey you choose to talk to. Translation text go go to the translation endpoint wey you set; Apple or Google go handle buy-buy info; and reports go pass through your email provider go reach our safety person. If we pick service provider to help us process information, we go make sure say dem follow the privacy rules for this policy; but services wey you pick yourself, na their own rules and privacy ways dem dey follow. We no dey sell personal info, use am for other people advertisement, or run any advertisement or cross-app tracking SDKs. We no dey keep regular copies of your direct chats for any central chat server.",
-    "s3.t": "3. Permissions and Visibility Controls",
+    "s3.t": "3. Permission and wetin pipol go see",
     "s3.l1": "<strong>Bluetooth / Nearby devices</strong> — na for to find, let others see you, connect, and share things with devices wey dey near you. This permissions important for the app to work, but you fit change am for your system settings.",
     "s3.l2": "<strong>Location (Android 11 and earlier)</strong> — old Android versions need location permission for Bluetooth scanning. For new versions wey the app support, e go ask for Nearby devices permissions, and we declare say we no dey use Bluetooth scanning to find where you dey exactly. We no dey collect or send GPS coordinates.",
     "s3.l3": "<strong>Photos and notifications</strong> — the app only go touch the photos wey you pick for your profile or chat. Notification permission na to tell you when message enter and to help Bluetooth work where the operating system need am. You fit say 'no' or change these optional permissions for your system settings.",
     "s3.l4": "<strong>Discoverability</strong> — na you decide when other people wey dey near you fit see your profile. When e active, the app go use Bluetooth tell others about your profile so dem fit find you. You fit stop this thing anytime using the antenna control. The app no dey put you for map or just so-so match you enter chat.",
-    "s4.t": "4. Translation and Network Services",
+    "s4.t": "4. Translation and network service",
     "s4.p": "Translation no be compulsory, but you need to set an Ollama-compatible endpoint for the app. When you ask for translation, the message text, how to translate am, the language, and model request go go to that endpoint through your local network or internet, depending on the address wey you set. The person wey run the endpoint fit see normal network info like your IP address, and na dem be in charge of their own security, logging, keeping data, and privacy ways. We no get control over the endpoints wey you pick yourself. If no endpoint dey, you fit still use direct Bluetooth chat without translation.",
-    "s5.t": "5. Storage, Security, Retention, and Deletion",
+    "s5.t": "5. How we dey keep, protect, hold and delete information",
     "s5.l1": "<strong>Delete a conversation</strong> — this one go remove the chat from your device. E no go delete copies wey other people don already receive, save, or report.",
     "s5.p": "Profiles, conversations, blocks, and the app-generated identifier usually dey stay for your device as far as the app or that record still dey there. The operating system's protection features dey safeguard local app data. Bluetooth and network transmission security also depend on the devices wey dey use am, configured endpoint, network, and email provider. No way to store or send things wey completely secure.",
     "s5.l2": "<strong>Block person</strong> — e go save the block for your device so dat the person no go fit see your profile again or send you message. You fit manage people wey you don block inside the app.",
@@ -99,6 +99,6 @@
     "s9.p": "We fit update this policy if the app, how we dey work, or law change. We go post the new policy here and update the date for top. If any change affect how we use info seriously, we go give extra notice or ask for consent as law demand.",
     "s10.t": "10. Contact",
     "s10.p": "If you get any question about this Privacy Policy, abeg contact us for:",
-    "footer.copy": "© 2026 GGanbu Chat. All rights reserved."
+    "footer.copy": "© 2026 GGanbu Chat. Na dem get all di rights."
   }
 }
