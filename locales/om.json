@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Namoonni gaa'on, walitti dhihaatan",
-    "meta.desc": "Appii chat'ii naannoo kabajamaa namoota ga'umsa gahaniif. Namoota naannoo keessanitti argadhaa, afaanota adda addaa keessa wal qunnamadhaa, akkasumas walitti dhufeenya amanamummaa qabu kan saalaan wal qabachuu hin qabne uumaa.",
+    "meta.desc": "GGanbu Chat namoota guddate naannoo jiran kan yaada kabaja qabuun haasawa jalqaban, afaanota adda addaa keessa wal hubatan, fi michummaa dhugaa ijaaran gargaara—toora Bluetooth-iin kallattiin.",
     "meta.ogTitle": "GGanbu Chat — Namoonni gaa'on, walitti dhihaatan",
-    "meta.ogDesc": "Appii chat'ii naannoo kabajamaa namoota ga'umsa gahaniif. Namoota naannoo keessanitti argadhaa, afaanota adda addaa keessa wal qunnamadhaa, akkasumas walitti dhufeenya amanamummaa qabu kan saalaan wal qabachuu hin qabne uumaa.",
+    "meta.ogDesc": "GGanbu Chat namoota guddate naannoo jiran kan yaada kabaja qabuun haasawa jalqaban, afaanota adda addaa keessa wal hubatan, fi michummaa dhugaa ijaaran gargaara—toora Bluetooth-iin kallattiin.",
     "language.selector": "Afaan",
     "nav.meaning": "GGanbu maali?",
     "nav.features": "Amaloota",
@@ -21,8 +21,8 @@
     "hero.float1": "Afaanota adda addaa keessa wal qunnamadhu",
     "hero.float2": "Kabaja wajjin wal qunnamadhu",
     "meaning.eyebrow": "Hiika GGanbu",
-    "meaning.title": "Michuu amanamummaa qabu, osoo hin taane hariiroo saalaa.",
-    "meaning.lead": "“GGanbu” jechuun michuu dhiyoo fi amanamummaa qabu—nama ati itti haasawuun danda'u fi kabajaan itti fayyadamtuudha. Appiin kun walqunnamtii fayya-qabea, kan hariiroo saalaa hin taane, namoota guddate kabaja qaban gidduutti akka jiraatuuf qophaa'eera.",
+    "meaning.title": "“GGanbu” jechuun michuu dhiyoo fi amanamummaa qabu.",
+    "meaning.lead": "“GGanbu” jechuun michuu dhiyoo fi amanamummaa qabu—nama ati itti haasawuun danda'u fi kabajaan itti fayyadamtuudha.",
     "meaning.p1": "Walqunnamtii michummaa fedhii fi kabaja walii irratti hundaa'e",
     "meaning.p2": "Tocho-tocho ifa ta'an kan argamummaa, dhabamsiisaa fi gabaasaf",
     "meaning.p3": "Wal-qabsiisaa saphana’aa ykn dhiibbaa deebii kennuuf hin jiru",

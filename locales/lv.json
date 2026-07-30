@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Labi cilvēki, tuvāk viens otram",
-    "meta.desc": "Pieklājīga tualbanu čatu lietotne pieaugušajiem. Satiecies ar cilvēkiem apkārt, sazinies dažādās valodās un veido uzticamas, neseksuālas saiknes.",
+    "meta.desc": "GGanbu Chat palīdz tuvumā esošiem pieaugušajiem uzsākt pieklājīgas sarunas, saprast viens otru dažādās valodās un veidot patiesas draudzības — tieši caur Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Labi cilvēki, tuvāk viens otram",
-    "meta.ogDesc": "Pieklājīga tualbanu čatu lietotne pieaugušajiem. Satiecies ar cilvēkiem apkārt, sazinies dažādās valodās un veido uzticamas, neseksuālas saiknes.",
+    "meta.ogDesc": "GGanbu Chat palīdz tuvumā esošiem pieaugušajiem uzsākt pieklājīgas sarunas, saprast viens otru dažādās valodās un veidot patiesas draudzības — tieši caur Bluetooth.",
     "language.selector": "Valoda",
     "nav.meaning": "Kas ir GGanbu?",
     "nav.features": "Funkcijas",
@@ -21,8 +21,8 @@
     "hero.float1": "Komunicējieties dažādās valodās",
     "hero.float2": "Savienojieties ar ciestību",
     "meaning.eyebrow": "GGanbu nozīme",
-    "meaning.title": "Uzticams draugs, nevis seksuālas attiecības.",
-    "meaning.lead": "“GGanbu” nozīmē tuvu, uzticamu draugu — kādu, ar kuru varat atklāti sarunāties un kuram varat izturēties ar rūpību. Lietotne ir izstrādāta veselīgai, neseksuālai komunikācijai starp pieklājīgiem pieaugušajiem.",
+    "meaning.title": "“GGanbu” nozīmē tuvu, uzticamu draugu.",
+    "meaning.lead": "“GGanbu” nozīmē tuvu, uzticamu draugu — kādu, ar kuru varat atklāti sarunāties un kuram varat izturēties ar rūpību.",
     "meaning.p1": "Draudzīga saikne, kas veidota uz savstarpējas intereses un ciestības",
     "meaning.p2": "Skaidras kontroles iespējas redzamībai, bloķēšanai un ziņošanai",
     "meaning.p3": "Nav nejaušas saderināšanas vai spiediena atbildēt",

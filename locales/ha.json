@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Mutane nagari, sun ƙara kusanci",
-    "meta.desc": "Manhajar hira ta kusa mai girmama juna ga manya. Haɗu da mutanen da ke kusa da kai, yi magana a cikin harsuna daban-daban, sannan ka gina dangantaka ta amincewa wadda ba ta jima'i ba.",
+    "meta.desc": "GGanbu Chat na taimaka wa manyan mutane da ke kusa su fara tattaunawa cikin girmama juna, fahimtar juna ta hanyar harsuna daban-daban, da kuma gina abota ta gaskiya— kai tsaye ta Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Mutane nagari, sun ƙara kusanci",
-    "meta.ogDesc": "Manhajar hira ta kusa mai girmama juna ga manya. Haɗu da mutanen da ke kusa da kai, yi magana a cikin harsuna daban-daban, sannan ka gina dangantaka ta amincewa wadda ba ta jima'i ba.",
+    "meta.ogDesc": "GGanbu Chat na taimaka wa manyan mutane da ke kusa su fara tattaunawa cikin girmama juna, fahimtar juna ta hanyar harsuna daban-daban, da kuma gina abota ta gaskiya— kai tsaye ta Bluetooth.",
     "language.selector": "Harshe",
     "nav.meaning": "Menene GGanbu?",
     "nav.features": "Siffofi",
@@ -21,8 +21,8 @@
     "hero.float1": "Yi magana cikin harsuna daban-daban",
     "hero.float2": "Hada kai cikin girmama juna",
     "meaning.eyebrow": "Ma'anar GGanbu",
-    "meaning.title": "Abokin amincewa ne, ba alaƙar jima'i ba.",
-    "meaning.lead": "“GGanbu” na nufin aboki na kusa wanda za a iya dogaro da shi—wanda za ka iya tattaunawa da shi a fili kuma ka kula da shi. An tsara wannan app din don sadarwa mai kyau, wadda ba ta shafi jima'i ba, tsakanin manyan mutane masu girmama juna.",
+    "meaning.title": "“GGanbu” na nufin aboki na kusa wanda za a iya dogaro da shi.",
+    "meaning.lead": "“GGanbu” na nufin aboki na kusa wanda za a iya dogaro da shi—wanda za ka iya tattaunawa da shi a fili kuma ka kula da shi.",
     "meaning.p1": "Hada kai na abota wanda aka gina shi a kan sha'awa da girmama juna",
     "meaning.p2": "Sarrafa ganuwa, toshewa, da kai rahoton cikin sauƙi",
     "meaning.p3": "Babu haɗa mutane ba tare da sani ba ko matsin lamba na amsawa",

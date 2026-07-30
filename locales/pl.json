@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Dobrzy ludzie, bliżej siebie",
-    "meta.desc": "Aplikacja do kulturalnego czatowania z osobami w pobliżu dla dorosłych. Poznaj ludzi wokół siebie, komunikuj się bez barier językowych i buduj zaufane, nieerotyczne relacje.",
+    "meta.desc": "GGanbu Chat pomaga dorosłym w pobliżu nawiązywać pełne szacunku rozmowy, rozumieć się ponad barierami językowymi i budować prawdziwe przyjaźnie — bezpośrednio przez Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Dobrzy ludzie, bliżej siebie",
-    "meta.ogDesc": "Aplikacja do kulturalnego czatowania z osobami w pobliżu dla dorosłych. Poznaj ludzi wokół siebie, komunikuj się bez barier językowych i buduj zaufane, nieerotyczne relacje.",
+    "meta.ogDesc": "GGanbu Chat pomaga dorosłym w pobliżu nawiązywać pełne szacunku rozmowy, rozumieć się ponad barierami językowymi i budować prawdziwe przyjaźnie — bezpośrednio przez Bluetooth.",
     "language.selector": "Język",
     "nav.meaning": "Co to jest GGanbu?",
     "nav.features": "Funkcje",
@@ -21,8 +21,8 @@
     "hero.float1": "Rozmawiaj bez barier językowych",
     "hero.float2": "Łącz się z szacunkiem",
     "meaning.eyebrow": "Znaczenie słowa GGanbu",
-    "meaning.title": "Zaufany przyjaciel, a nie relacja seksualna.",
-    "meaning.lead": "„GGanbu” oznacza bliskiego, niezawodnego przyjaciela — kogoś, z kim można otwarcie rozmawiać i o kogo można dbać. Aplikacja została zaprojektowana z myślą o zdrowej, nie mającej charakteru seksualnego komunikacji między pełnymi szacunku dorosłymi osobami.",
+    "meaning.title": "„GGanbu” oznacza bliskiego, niezawodnego przyjaciela.",
+    "meaning.lead": "„GGanbu” oznacza bliskiego, niezawodnego przyjaciela — kogoś, z kim można otwarcie rozmawiać i o kogo można dbać.",
     "meaning.p1": "Przyjazna relacja oparta na wzajemnym zainteresowaniu i szacunku",
     "meaning.p2": "Przejrzyste ustawienia widoczności, blokowania i zgłaszania",
     "meaning.p3": "Brak losowego dopasowywania i presji na odpowiedź",

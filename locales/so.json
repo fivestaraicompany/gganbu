@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Dad wanaagsan, oo isku dhow",
-    "meta.desc": "App sheekaysi agagaarka ah oo xushmad leh oo loogu talagalay dadka waaweyn. La kulan dadka kugu hareeraysan, ku xiriir luqado kala duwan, oo dhis xiriirro lagu kalsoon yahay oo aan galmo ahayn.",
+    "meta.desc": "GGanbu Chat waxay ka caawisaa dadka waaweyn ee agagaarka jooga inay bilaabaan sheekooyin xushmad leh, isku fahmaan luuqado kala duwan, ayna dhistaan saaxiibtinimo dhab ah—si toos ah iyadoo loo marayo Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Dad wanaagsan, oo isku dhow",
-    "meta.ogDesc": "App sheekaysi agagaarka ah oo xushmad leh oo loogu talagalay dadka waaweyn. La kulan dadka kugu hareeraysan, ku xiriir luqado kala duwan, oo dhis xiriirro lagu kalsoon yahay oo aan galmo ahayn.",
+    "meta.ogDesc": "GGanbu Chat waxay ka caawisaa dadka waaweyn ee agagaarka jooga inay bilaabaan sheekooyin xushmad leh, isku fahmaan luuqado kala duwan, ayna dhistaan saaxiibtinimo dhab ah—si toos ah iyadoo loo marayo Bluetooth.",
     "language.selector": "Luqadda",
     "nav.meaning": "Waa maxay GGanbu?",
     "nav.features": "Sifooyinka",
@@ -21,8 +21,8 @@
     "hero.float1": "Ku xiriir luuqado kala duwan",
     "hero.float2": "Ku xiriir si xushmad leh",
     "meaning.eyebrow": "Macnaha GGanbu",
-    "meaning.title": "Saaxiib lagu kalsoon yahay, ee ma aha xiriir galmo.",
-    "meaning.lead": "“GGanbu” waxay ka dhigan tahay saaxiib dhow oo lagu kalsoon yahay—qof aad si furan ula hadli karto, si naxariis lehna ula dhaqmi karto. App-ka waxaa loogu talagalay xiriir caafimaad qaba oo aan galmo ahayn oo dhex mara dad waaweyn xushmad leh.",
+    "meaning.title": "“GGanbu” waxay ka dhigan tahay saaxiib dhow oo lagu kalsoon yahay.",
+    "meaning.lead": "“GGanbu” waxay ka dhigan tahay saaxiib dhow oo lagu kalsoon yahay—qof aad si furan ula hadli karto, si naxariis lehna ula dhaqmi karto.",
     "meaning.p1": "Xiriir saaxiibtinimo oo ku dhisan is-xiisayn iyo xushmad labada dhinac ah",
     "meaning.p2": "Xakamayl cad oo loogu talagalay muuqashada, xannibaadda, iyo soo sheegista",
     "meaning.p3": "Ma jirto is-u-helid aan qorshaysnayn ama cadaadis loogu qasbayo jawaabta",

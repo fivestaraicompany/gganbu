@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — 讓良善的人們，更加親近",
-    "meta.desc": "這是一款為成年人設計的近距離聊天應用程式，讓人以禮相待。認識身邊的人，跨越語言暢快交流，建立值得信賴的純友誼。",
+    "meta.desc": "GGanbu Chat 讓附近的成年人有禮地展開對話、跨越語言相互理解，並透過 Bluetooth 直接相連，建立真誠的友誼。",
     "meta.ogTitle": "GGanbu Chat — 讓良善的人們，更加親近",
-    "meta.ogDesc": "這是一款為成年人設計的近距離聊天應用程式，讓人以禮相待。認識身邊的人，跨越語言暢快交流，建立值得信賴的純友誼。",
+    "meta.ogDesc": "GGanbu Chat 讓附近的成年人有禮地展開對話、跨越語言相互理解，並透過 Bluetooth 直接相連，建立真誠的友誼。",
     "language.selector": "語言",
     "nav.meaning": "什麼是 GGanbu？",
     "nav.features": "功能特點",
@@ -21,8 +21,8 @@
     "hero.float1": "跨越語言聊天",
     "hero.float2": "以尊重相待",
     "meaning.eyebrow": "GGanbu 的含義",
-    "meaning.title": "值得信賴的好友，而不是性關係。",
-    "meaning.lead": "「GGanbu」意指親近而可靠的朋友——可以坦誠交談、彼此珍重的那個人。本應用程式為以禮相待的成年人而設，追求健康、非情色的交流。",
+    "meaning.title": "「GGanbu」意指親近而可靠的朋友。",
+    "meaning.lead": "「GGanbu」意指親近而可靠的朋友——可以坦誠交談、彼此珍重的那個人。",
     "meaning.p1": "以彼此的興趣與尊重為基礎的友好聯繫",
     "meaning.p2": "公開範圍、封鎖與檢舉，都由您清楚掌控",
     "meaning.p3": "沒有隨機配對，也沒有必須回覆的壓力",

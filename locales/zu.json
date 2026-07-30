@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Abantu abahle, basondelene kakhulu",
-    "meta.desc": "I-app yengxoxo yasendlini eyinhlonipho yabantu abadala. Hlangana nabantu abaseduze nawe, xhumana ngezilimi ezahlukene, futhi wakhe ubudlelwano obathembekile obungahlobene nocansi.",
+    "meta.desc": "i-GGanbu Chat isiza abadala abaseduze ukuba baqale izingxoxo zenhlonipho, baqondane noma ngabe bakhuluma izilimi ezehlukene, futhi bakhe ubungane bangempela—ngokuqondile nge-Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Abantu abahle, basondelene kakhulu",
-    "meta.ogDesc": "I-app yengxoxo yasendlini eyinhlonipho yabantu abadala. Hlangana nabantu abaseduze nawe, xhumana ngezilimi ezahlukene, futhi wakhe ubudlelwano obathembekile obungahlobene nocansi.",
+    "meta.ogDesc": "i-GGanbu Chat isiza abadala abaseduze ukuba baqale izingxoxo zenhlonipho, baqondane noma ngabe bakhuluma izilimi ezehlukene, futhi bakhe ubungane bangempela—ngokuqondile nge-Bluetooth.",
     "language.selector": "Ulimi",
     "nav.meaning": "Yini i-GGanbu?",
     "nav.features": "Izici",
@@ -21,8 +21,8 @@
     "hero.float1": "Khuluma ngezilimi ezehlukene",
     "hero.float2": "Xhumana ngenhlonipho",
     "meaning.eyebrow": "Incazelo ye-GGanbu",
-    "meaning.title": "Umngane okwethenjwa, hhayi ubudlelwano bezocansi.",
-    "meaning.lead": "“GGanbu” kusho umngane osondelene nofuthi okwethembekile—umuntu ongakhuluma naye ngokukhululeka futhi omphatha ngoconde. I-app iklanyelwe ukuxhumana okunempilo, okungesona okwezocansi phakathi kwabadala abahloniphayo.",
+    "meaning.title": "“GGanbu” kusho umngane osondelene nofuthi okwethembekile.",
+    "meaning.lead": "“GGanbu” kusho umngane osondelene nofuthi okwethembekile—umuntu ongakhuluma naye ngokukhululeka futhi omphatha ngoconde.",
     "meaning.p1": "Uxhumano lobungane olusekelwe ekuthandaneni nasekunhloniphaneni.",
     "meaning.p2": "Izilawuli ezicacile zokubonakala, ukuvimba, nokubika",
     "meaning.p3": "Akukho ukuhlanganiswa okungahleliwe noma ingcindezi yokuphendula",

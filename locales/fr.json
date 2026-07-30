@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Des gens bien, plus proches.",
-    "meta.desc": "Une application de chat de proximité respectueuse, pour adultes. Rencontrez des personnes autour de vous, communiquez quelle que soit la langue et créez des liens de confiance, sans visée sexuelle.",
+    "meta.desc": "GGanbu Chat aide les adultes à proximité à entamer des conversations respectueuses, à se comprendre malgré les barrières linguistiques et à nouer de véritables amitiés — directement via Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Des gens bien, plus proches.",
-    "meta.ogDesc": "Une application de chat de proximité respectueuse, pour adultes. Rencontrez des personnes autour de vous, communiquez quelle que soit la langue et créez des liens de confiance, sans visée sexuelle.",
+    "meta.ogDesc": "GGanbu Chat aide les adultes à proximité à entamer des conversations respectueuses, à se comprendre malgré les barrières linguistiques et à nouer de véritables amitiés — directement via Bluetooth.",
     "language.selector": "Langue",
     "nav.meaning": "Qu'est-ce que GGanbu ?",
     "nav.features": "Fonctionnalités",
@@ -21,8 +21,8 @@
     "hero.float1": "Communiquez quelle que soit la langue",
     "hero.float2": "Connectez-vous dans le respect",
     "meaning.eyebrow": "La signification de GGanbu",
-    "meaning.title": "Un compagnon de confiance, pas une relation sexuelle.",
-    "meaning.lead": "« GGanbu » désigne un ami proche et fiable — quelqu'un avec qui vous pouvez parler ouvertement et que vous traitez avec soin. L'application est conçue pour une communication saine et non sexuelle entre adultes respectueux.",
+    "meaning.title": "« GGanbu » désigne un ami proche et fiable.",
+    "meaning.lead": "« GGanbu » désigne un ami proche et fiable — quelqu'un avec qui vous pouvez parler ouvertement et que vous traitez avec soin.",
     "meaning.p1": "Une connexion amicale basée sur l'intérêt mutuel et le respect",
     "meaning.p2": "Contrôles clairs pour la visibilité, le blocage et le signalement",
     "meaning.p3": "Pas de mise en relation aléatoire ni de pression pour répondre",

@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Dobri ljudi, bliže jedni drugima",
-    "meta.desc": "Poštovljiva aplikacija za ćaskanje u blizini za odrasle. Upoznajte ljude oko sebe, komunicirajte na različitim jezicima i izgradite pouzdane, neseksualne veze.",
+    "meta.desc": "GGanbu Chat pomaže odraslim osobama u blizini da započnu poštovljive razgovore, razumiju jedni druge bez obzira na jezik i izgrade iskrena prijateljstva — direktno putem Bluetooth-a.",
     "meta.ogTitle": "GGanbu Chat — Dobri ljudi, bliže jedni drugima",
-    "meta.ogDesc": "Poštovljiva aplikacija za ćaskanje u blizini za odrasle. Upoznajte ljude oko sebe, komunicirajte na različitim jezicima i izgradite pouzdane, neseksualne veze.",
+    "meta.ogDesc": "GGanbu Chat pomaže odraslim osobama u blizini da započnu poštovljive razgovore, razumiju jedni druge bez obzira na jezik i izgrade iskrena prijateljstva — direktno putem Bluetooth-a.",
     "language.selector": "Jezik",
     "nav.meaning": "Šta je GGanbu?",
     "nav.features": "Funkcije",
@@ -21,8 +21,8 @@
     "hero.float1": "Komunicirajte bez obzira na jezik",
     "hero.float2": "Povežite se s poštovanjem",
     "meaning.eyebrow": "Značenje riječi GGanbu",
-    "meaning.title": "Povjerljiv prijatelj, ne seksualni odnos.",
-    "meaning.lead": "„GGanbu” znači bliski, pouzdan prijatelj — neko s kim možete otvoreno razgovarati i prema kome se odnosite s pažnjom. Aplikacija je dizajnirana za zdravu, neseksualnu komunikaciju između poštovljivih odraslih osoba.",
+    "meaning.title": "„GGanbu” znači bliski, pouzdan prijatelj.",
+    "meaning.lead": "„GGanbu” znači bliski, pouzdan prijatelj — neko s kim možete otvoreno razgovarati i prema kome se odnosite s pažnjom.",
     "meaning.p1": "Prijateljska povezanost izgrađena na uzajamnom interesu i poštovanju",
     "meaning.p2": "Jasne kontrole za vidljivost, blokiranje i prijavljivanje",
     "meaning.p3": "Bez nasumičnog spajanja ili pritiska da odgovorite",

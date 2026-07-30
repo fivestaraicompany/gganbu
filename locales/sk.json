@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Dobrí ľudia, bližšie k sebe",
-    "meta.desc": "Rešpektujúca aplikácia na četovanie s ľuďmi v okolí pre dospelých. Spoznajte ľudí vo vašom okolí, komunikujte naprieč jazykmi a budujte si dôveryhodné, nesexuálne vzťahy.",
+    "meta.desc": "GGanbu Chat pomáha dospelým v okolí začať rešpektujúce konverzácie, rozumieť si naprieč jazykovými bariérami a budovať úprimné priateľstvá – priamo cez Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Dobrí ľudia, bližšie k sebe",
-    "meta.ogDesc": "Rešpektujúca aplikácia na četovanie s ľuďmi v okolí pre dospelých. Spoznajte ľudí vo vašom okolí, komunikujte naprieč jazykmi a budujte si dôveryhodné, nesexuálne vzťahy.",
+    "meta.ogDesc": "GGanbu Chat pomáha dospelým v okolí začať rešpektujúce konverzácie, rozumieť si naprieč jazykovými bariérami a budovať úprimné priateľstvá – priamo cez Bluetooth.",
     "language.selector": "Jazyk",
     "nav.meaning": "Čo je to GGanbu?",
     "nav.features": "Funkcie",
@@ -21,8 +21,8 @@
     "hero.float1": "Komunikujte naprieč jazykmi",
     "hero.float2": "Spojte sa s rešpektom",
     "meaning.eyebrow": "Význam slova GGanbu",
-    "meaning.title": "Dôveryhodný kamarát, nie sexuálny vzťah.",
-    "meaning.lead": "„GGanbu“ znamená blízkeho, spoľahlivého priateľa – niekoho, s kým môžete otvorene hovoriť a ku komu sa môžete starostlivo správať. Aplikácia je navrhnutá pre zdravú, ne-sexuálnu komunikáciu medzi rešpektujúcimi dospelými.",
+    "meaning.title": "„GGanbu“ znamená blízkeho, spoľahlivého priateľa.",
+    "meaning.lead": "„GGanbu“ znamená blízkeho, spoľahlivého priateľa – niekoho, s kým môžete otvorene hovoriť a ku komu sa môžete starostlivo správať.",
     "meaning.p1": "Priateľské spojenie založené na vzájomnom záujme a rešpekte",
     "meaning.p2": "Jasné ovládacie prvky pre viditeľnosť, blokovanie a hlásenie",
     "meaning.p3": "Žiadne náhodné párovanie ani tlak na odpovedanie",

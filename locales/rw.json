@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Abantu beza, bagize ubumwe",
-    "meta.desc": "App yo kuganira n'abantu bari hafi y'abakuru ifite ikinyabupfura. Menya abantu bakuriye hafi, tuvane mu ndimi zitandukanye, kandi wubake isano yizewe itari iy'imibonano mpuzamvuduko.",
+    "meta.desc": "GGanbu Chat ifasha abantu bakuru bari hafi gutangira ibiganiro by'icyubahiro, gusobanukirwana mu ndimi zitandukanye, no kubaka ubucuti nyakuri—binyuze kuri Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Abantu beza, bagize ubumwe",
-    "meta.ogDesc": "App yo kuganira n'abantu bari hafi y'abakuru ifite ikinyabupfura. Menya abantu bakuriye hafi, tuvane mu ndimi zitandukanye, kandi wubake isano yizewe itari iy'imibonano mpuzamvuduko.",
+    "meta.ogDesc": "GGanbu Chat ifasha abantu bakuru bari hafi gutangira ibiganiro by'icyubahiro, gusobanukirwana mu ndimi zitandukanye, no kubaka ubucuti nyakuri—binyuze kuri Bluetooth.",
     "language.selector": "Ururimi",
     "nav.meaning": "GGanbu ni iki?",
     "nav.features": "Ibiranga app",
@@ -21,8 +21,8 @@
     "hero.float1": "Vugana mu ndimi zitandukanye",
     "hero.float2": "Huza n'abandi mu cyubahiro",
     "meaning.eyebrow": "Ibisobanuro bya GGanbu",
-    "meaning.title": "Inshuti yizerwa, si umubano w'imibonano mpuzabitsina.",
-    "meaning.lead": "“GGanbu” bisobanura inshuti y'inda kandi yizerwa—umuntu wavugana na we mu buryo bugaragara kandi ukamuha kwitaho. Iyi app yateguwe kugira ngo haboneka itumanaho ryiza, ritari iry'imibonano mpuzabitsina, hagati y'abantu bakuru bacyubashijwe.",
+    "meaning.title": "“GGanbu” bisobanura inshuti y'inda kandi yizerwa.",
+    "meaning.lead": "“GGanbu” bisobanura inshuti y'inda kandi yizerwa—umuntu wavugana na we mu buryo bugaragara kandi ukamuha kwitaho.",
     "meaning.p1": "Imibanire myiza ishingiye ku byo mwembi mukunda n'icyubahiro.",
     "meaning.p2": "Uburyo bworoshye bwo kugenzura uburyo ugaragara, kubuza, no gutanga raporo",
     "meaning.p3": "Nta guhuza abantu mu buryo bwa hapishapi cyangwa igihangayiko cyo gusubiza",

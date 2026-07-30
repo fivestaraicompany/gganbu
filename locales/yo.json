@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Àwọn ènìyàn rere, sún mọ́ ara wọn sí i",
-    "meta.desc": "Ohun èlò ìfọ̀rọ̀wérọ̀ tí ó ní ọ̀wọ̀ fún àwọn tí wọ́n ti dàgbà. Pàdé àwọn ènìyàn tí ó wà ní bíbi rẹ, sọ̀rọ̀ ní onírúurú èdè, kí o sì kọ́ ìbáṣepọ̀ tí a le gbẹ́kẹ̀le tí kì í ṣe ti ìbálò.",
+    "meta.desc": "GGanbu Chat ran àwọn àgbà tí wọ́n wà níbẹ̀ láti bẹ̀rẹ̀ ìjíròrò tó ní ọ̀wọ̀, kí wọ́n lóye ara wọn láyìí èdè, kí wọ́n sì kọ́ ọ̀ré tòótọ́—tani Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Àwọn ènìyàn rere, sún mọ́ ara wọn sí i",
-    "meta.ogDesc": "Ohun èlò ìfọ̀rọ̀wérọ̀ tí ó ní ọ̀wọ̀ fún àwọn tí wọ́n ti dàgbà. Pàdé àwọn ènìyàn tí ó wà ní bíbi rẹ, sọ̀rọ̀ ní onírúurú èdè, kí o sì kọ́ ìbáṣepọ̀ tí a le gbẹ́kẹ̀le tí kì í ṣe ti ìbálò.",
+    "meta.ogDesc": "GGanbu Chat ran àwọn àgbà tí wọ́n wà níbẹ̀ láti bẹ̀rẹ̀ ìjíròrò tó ní ọ̀wọ̀, kí wọ́n lóye ara wọn láyìí èdè, kí wọ́n sì kọ́ ọ̀ré tòótọ́—tani Bluetooth.",
     "language.selector": "Èdè",
     "nav.meaning": "Kí ni GGanbu?",
     "nav.features": "Àwọn Ìṣẹ́",
@@ -21,8 +21,8 @@
     "hero.float1": "Sọ̀rọ̀ láyìí èdè",
     "hero.float2": "So pọ̀ pẹ̀lú ọ̀wọ̀",
     "meaning.eyebrow": "Itumọ GGanbu",
-    "meaning.title": "Ọ̀ré tí a gbẹ́kẹ̀le, kì í ṣe àjọṣepọ̀ ti ara.",
-    "meaning.lead": "“GGanbu” túmọ̀ sí ọ̀ré tí ó súnmọ́ ẹni, tí a sì lè gbẹ́kẹ̀le—ẹnì kan tí o le bá sọ̀rọ̀ ní ṣíṣẹ́ ati tọ́jú pẹ̀lú ìfẹ́. A ṣe app yìí fún ìbáṣepọ̀ tó wà láyọ̀, tí kò sì jẹ́ ti ara, láàárín àwọn àgbà tí wọ́n ní ọ̀wọ̀ fún ara wọn.",
+    "meaning.title": "“GGanbu” túmọ̀ sí ọ̀ré tí ó súnmọ́ ẹni, tí a sì lè gbẹ́kẹ̀le.",
+    "meaning.lead": "“GGanbu” túmọ̀ sí ọ̀ré tí ó súnmọ́ ẹni, tí a sì lè gbẹ́kẹ̀le—ẹnì kan tí o le bá sọ̀rọ̀ ní ṣíṣẹ́ ati tọ́jú pẹ̀lú ìfẹ́.",
     "meaning.p1": "Ìsopọ̀ ọ̀ré tó dá lórí ìfẹ́ ati ọ̀wọ̀ fún ara wọn",
     "meaning.p2": "Àwọn ìdarí tí ó ṣe kedere fún ìríwo, ìdádúró, àti ìròyìn",
     "meaning.p3": "Kò sí ìpapọ̀ lálàá tàbí ìfipá mú ẹ láti dáhùn",

@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Geri žmonės, dar artimesni",
-    "meta.desc": "Pagarbų bendravimo programėlė su aplinkais suaugusiems. Susipažinkite su žmonėmis aplink save, bendraukite nepaisant kalbų skirtumų ir kurkite pasitikėjimu grįstus, neseksualinius ryšius.",
+    "meta.desc": "GGanbu Chat padeda šalia esantiems suaugusiems pradėti pagarbias pokalbutes, suprasti vienu kitą nepaisant kalbų skirtumų ir užmegzti nuoširdžias draugystes – tiesiogiai per Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Geri žmonės, dar artimesni",
-    "meta.ogDesc": "Pagarbų bendravimo programėlė su aplinkais suaugusiems. Susipažinkite su žmonėmis aplink save, bendraukite nepaisant kalbų skirtumų ir kurkite pasitikėjimu grįstus, neseksualinius ryšius.",
+    "meta.ogDesc": "GGanbu Chat padeda šalia esantiems suaugusiems pradėti pagarbias pokalbutes, suprasti vienu kitą nepaisant kalbų skirtumų ir užmegzti nuoširdžias draugystes – tiesiogiai per Bluetooth.",
     "language.selector": "Kalba",
     "nav.meaning": "Kas yra GGanbu?",
     "nav.features": "Funkcijos",
@@ -21,8 +21,8 @@
     "hero.float1": "Bendraukite nepaisant kalbų skirtumų",
     "hero.float2": "Susisiekite pagarbiai",
     "meaning.eyebrow": "GGanbu reikšmė",
-    "meaning.title": "Pasitikėjimu grįstas draugas, o ne seksualiniai santykiai.",
-    "meaning.lead": "„GGanbu“ reiškia artimą, patikimą draugą – žmogų, su kuriuo galite atvirai bendrauti ir kurį vertinate. Programėlė skirta sveikam, nesexualiam bendravimui tarp pagarbių suaugusiųjų.",
+    "meaning.title": "„GGanbu“ reiškia artimą, patikimą draugą.",
+    "meaning.lead": "„GGanbu“ reiškia artimą, patikimą draugą – žmogų, su kuriuo galite atvirai bendrauti ir kurį vertinate.",
     "meaning.p1": "Draugiški ryšiai, pagrįsti abipusiu interesu ir pagarba",
     "meaning.p2": "Aiški kontrolė matomumui, blokuojimui ir pranešimams",
     "meaning.p3": "Nėra atsitiktinio sujungimo ar spaudimo atsakyti",

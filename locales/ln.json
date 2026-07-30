@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Bato malamu, bakumba lisusu",
-    "meta.desc": "App ya chat ya limoni mpo na bato ya kokoma monene. Kutanela na bato oyo bazali pembeni na yo, kosolola na minoko ndenge na ndenge, mpe kosala boyokani ya motema moko oyo ezali mpo na makambo ya nzoto te.",
+    "meta.desc": "GGanbu Chat esalisi bato ya minene oyo bazali pene mpo na kobanda lisolo ya limemya, kosolola ata basololi ndenge ekatana, mpe kokutana na baninga ya solo—na nzela ya Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Bato malamu, bakumba lisusu",
-    "meta.ogDesc": "App ya chat ya limoni mpo na bato ya kokoma monene. Kutanela na bato oyo bazali pembeni na yo, kosolola na minoko ndenge na ndenge, mpe kosala boyokani ya motema moko oyo ezali mpo na makambo ya nzoto te.",
+    "meta.ogDesc": "GGanbu Chat esalisi bato ya minene oyo bazali pene mpo na kobanda lisolo ya limemya, kosolola ata basololi ndenge ekatana, mpe kokutana na baninga ya solo—na nzela ya Bluetooth.",
     "language.selector": "Monoko",
     "nav.meaning": "GGanbu ezali nini?",
     "nav.features": "Bikangoni",
@@ -21,8 +21,8 @@
     "hero.float1": "Solola na minoko ekatana",
     "hero.float2": "Kokutana na limemya",
     "meaning.eyebrow": "Elingi ya GGanbu",
-    "meaning.title": "Moninga oyo okoki kotikisa ye, kasi ezali mpo na relasyon ya nzoto te.",
-    "meaning.lead": "“GGanbu” elimbi moninga ya pene mpe oyo okoki kotikisa ye—moto oyo okoki kosolola na ye na motema pamba mpe kobatela ye. App oyo esalami mpo na lisolo ya malamu, oyo ezali mpo na makambo ya nzoto te, kati na bato ya minene oyo bazali na limemya.",
+    "meaning.title": "“GGanbu” elimbi moninga ya pene mpe oyo okoki kotikisa ye.",
+    "meaning.lead": "“GGanbu” elimbi moninga ya pene mpe oyo okoki kotikisa ye—moto oyo okoki kosolola na ye na motema pamba mpe kobatela ye.",
     "meaning.p1": "Kokutana ya bolingo oyo esalami na likambo oyo bazo linga mpe na limemya.",
     "meaning.p2": "Bakongo ya pamba mpo na komonana, koblocka, mpe kopesa raporto",
     "meaning.p3": "Kokutana na bato na random te, mpe ezali eloko ya kokitisa mpo na koyanola",

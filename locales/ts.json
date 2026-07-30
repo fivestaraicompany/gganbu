@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Vanhu lava kahle, va ri kusuhi swinene",
-    "meta.desc": "App ya xichati xa le kusuhi leyi nga ni xichavo lava nga vakulu. Hlangana na vanhu lava ri kusuhi na wena, vulavula hi ririmi rin'wana na rin'wana, naswona endla vuxaka bya ntshembo, byi nga ri bya xisexe.",
+    "meta.desc": "GGanbu Chat yi pfuna vakulu lava nga kusuhi ku sungula switsalo swo xihlonipha, ku twisana eka mindzimi yo hambana, na ku aka vutswari bya ntiyiso—hi ku tirhisa Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Vanhu lava kahle, va ri kusuhi swinene",
-    "meta.ogDesc": "App ya xichati xa le kusuhi leyi nga ni xichavo lava nga vakulu. Hlangana na vanhu lava ri kusuhi na wena, vulavula hi ririmi rin'wana na rin'wana, naswona endla vuxaka bya ntshembo, byi nga ri bya xisexe.",
+    "meta.ogDesc": "GGanbu Chat yi pfuna vakulu lava nga kusuhi ku sungula switsalo swo xihlonipha, ku twisana eka mindzimi yo hambana, na ku aka vutswari bya ntiyiso—hi ku tirhisa Bluetooth.",
     "language.selector": "Ririmi",
     "nav.meaning": "GGanbu i yini?",
     "nav.features": "Swikombo",
@@ -21,8 +21,8 @@
     "hero.float1": "Vulavula hi mindzimi yo hambana",
     "hero.float2": "Xandzisiwa hi xihlonipho",
     "meaning.eyebrow": "Ntshiketo wa GGanbu",
-    "meaning.title": "Mukwathi loyi u tshembaka, ku nga riko vuxaka bya sexual.",
-    "meaning.lead": "“GGanbu” swi vula munhu loyi u n'wi tshembaka ku rile—munhu loyi u nga vulavula na yena hi vun’we na ku n'wi hlayisa. App leyi yi endliwe ku rhula vuxavulavuli bya xivandla lebyi nga byi sexual exikarhi ka vakulu lava nga na xihlonipho.",
+    "meaning.title": "“GGanbu” swi vula munhu loyi u n'wi tshembaka ku rile.",
+    "meaning.lead": "“GGanbu” swi vula munhu loyi u n'wi tshembaka ku rile—munhu loyi u nga vulavula na yena hi vun’we na ku n'wi hlayisa.",
     "meaning.p1": "Xandzisiwa xa vutswari lebyi ekaki eka xitsalo na xihlonipho",
     "meaning.p2": "Vutirhisi lebyi vulavuleke bya ku vonakala, ku khoma, na ku reportela",
     "meaning.p3": "A ku na ku hlawula hi ntsheketo kumbe ku pindzela ku hlamula",

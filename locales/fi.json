@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Hyvät ihmiset, lähempänä toisiaan",
-    "meta.desc": "Kunnioittava lähiympäristön chat-sovellus aikuisille. Tapaa ympärilläsi olevia ihmisiä, kommunikoi kielirajoista riippumatta ja rakenna luottamuksellisia, ei-seksuaalisia suhteita.",
+    "meta.desc": "GGanbu Chat auttaa lähellä olevia aikuisia aloittamaan kunnioittavia keskusteluja, ymmärtämään toisiaan kielirajoista huolimatta ja luomaan aitoja ystävyyssuhteita – suoraan Bluetoothin välityksellä.",
     "meta.ogTitle": "GGanbu Chat — Hyvät ihmiset, lähempänä toisiaan",
-    "meta.ogDesc": "Kunnioittava lähiympäristön chat-sovellus aikuisille. Tapaa ympärilläsi olevia ihmisiä, kommunikoi kielirajoista riippumatta ja rakenna luottamuksellisia, ei-seksuaalisia suhteita.",
+    "meta.ogDesc": "GGanbu Chat auttaa lähellä olevia aikuisia aloittamaan kunnioittavia keskusteluja, ymmärtämään toisiaan kielirajoista huolimatta ja luomaan aitoja ystävyyssuhteita – suoraan Bluetoothin välityksellä.",
     "language.selector": "Kieli",
     "nav.meaning": "Mikä on GGanbu?",
     "nav.features": "Ominaisuudet",
@@ -21,8 +21,8 @@
     "hero.float1": "Puhu yli kielirajojen",
     "hero.float2": "Luo yhteyksiä kunnioittavasti",
     "meaning.eyebrow": "Mitä GGanbu tarkoittaa",
-    "meaning.title": "Luotettava kaveri, ei seksuaalinen suhde.",
-    "meaning.lead": "”GGanbu” tarkoittaa läheistä ja luotettavaa ystävää – henkilöä, jonka kanssa voit keskustella avoimesti ja jota kohtelet huolella. Sovellus on suunniteltu terveelliseen, ei-seksuaaliseen viestintään kunnioittavien aikuisten välillä.",
+    "meaning.title": "”GGanbu” tarkoittaa läheistä ja luotettavaa ystävää.",
+    "meaning.lead": "”GGanbu” tarkoittaa läheistä ja luotettavaa ystävää – henkilöä, jonka kanssa voit keskustella avoimesti ja jota kohtelet huolella.",
     "meaning.p1": "Ystävällinen yhteys, joka perustuu molemminpuoliseen kiinnostukseen ja kunnioitukseen",
     "meaning.p2": "Selkeät asetukset näkyvyydelle, estolle ja raportoinnille",
     "meaning.p3": "Ei satunnaisia parituksia tai painetta vastata",

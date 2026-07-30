@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Watu wema, karibu zaidi",
-    "meta.desc": "Programu ya soga ya heshima ya watu wa karibu kwa watu wazima. Kutana na watu wanaokuzunguka, wasiliana kupitia lugha mbalimbali, na jenga uhusiano wa kuaminika usio wa kingono.",
+    "meta.desc": "GGanbu Chat huwasaidia watu wazima walioko karibu kuanzisha mazungumzo ya heshima, kuelewana licha ya tofauti za lugha, na kujenga urafiki wa kweli—moja kwa moja kupitia Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Watu wema, karibu zaidi",
-    "meta.ogDesc": "Programu ya soga ya heshima ya watu wa karibu kwa watu wazima. Kutana na watu wanaokuzunguka, wasiliana kupitia lugha mbalimbali, na jenga uhusiano wa kuaminika usio wa kingono.",
+    "meta.ogDesc": "GGanbu Chat huwasaidia watu wazima walioko karibu kuanzisha mazungumzo ya heshima, kuelewana licha ya tofauti za lugha, na kujenga urafiki wa kweli—moja kwa moja kupitia Bluetooth.",
     "language.selector": "Lugha",
     "nav.meaning": "GGanbu ni nini?",
     "nav.features": "Vipengele",
@@ -21,8 +21,8 @@
     "hero.float1": "Zungumza kupitia lugha tofauti",
     "hero.float2": "Ungana kwa heshima",
     "meaning.eyebrow": "Maana ya GGanbu",
-    "meaning.title": "Rafiki anayeaminika, si uhusiano wa kingono.",
-    "meaning.lead": "“GGanbu” inamaanisha rafiki wa karibu na anayeaminika—mtu ambaye unaweza kuzungumza naye kwa uwazi na kumtendea kwa uangalifu. Programu hii imeundwa kwa ajili ya mawasiliano ya afya, yasiyo ya kingono kati ya watu wazima wenye heshima.",
+    "meaning.title": "“GGanbu” inamaanisha rafiki wa karibu na anayeaminika.",
+    "meaning.lead": "“GGanbu” inamaanisha rafiki wa karibu na anayeaminika—mtu ambaye unaweza kuzungumza naye kwa uwazi na kumtendea kwa uangalifu.",
     "meaning.p1": "Muungano wa kirafiki uliojengwa juu ya maslahi ya pamoja na heshima",
     "meaning.p2": "Vidhibiti wazi vya uonekano, kuzuia, na kuripoti",
     "meaning.p3": "Hakuna ulinganishaji wa nasibu au shinikizo la kujibu",

@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Gode mennesker, tættere sammen",
-    "meta.desc": "En respektfuld chat-app i nærheden til voksne. Mød folk omkring dig, kommuniker på tværs af sprog og skab betroede, ikke-seksuelle forbindelser.",
+    "meta.desc": "GGanbu Chat hjælper voksne i nærheden med at starte respektfulde samtaler, forstå hinanden på tværs af sprog og opbygge ægte venskaber – direkte via Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Gode mennesker, tættere sammen",
-    "meta.ogDesc": "En respektfuld chat-app i nærheden til voksne. Mød folk omkring dig, kommuniker på tværs af sprog og skab betroede, ikke-seksuelle forbindelser.",
+    "meta.ogDesc": "GGanbu Chat hjælper voksne i nærheden med at starte respektfulde samtaler, forstå hinanden på tværs af sprog og opbygge ægte venskaber – direkte via Bluetooth.",
     "language.selector": "Sprog",
     "nav.meaning": "Hvad er GGanbu?",
     "nav.features": "Funktioner",
@@ -21,8 +21,8 @@
     "hero.float1": "Tal på tværs af sprog",
     "hero.float2": "Forbind med respekt",
     "meaning.eyebrow": "Betydningen af GGanbu",
-    "meaning.title": "En betroet kammerat, ikke et seksuelt forhold.",
-    "meaning.lead": "”GGanbu” betyder en nær, pålidelig ven – en person, man kan tale åbent med og behandle med omsorg. Appen er designet til sund, ikke-seksuel kommunikation mellem respektfulde voksne.",
+    "meaning.title": "”GGanbu” betyder en nær, pålidelig ven.",
+    "meaning.lead": "”GGanbu” betyder en nær, pålidelig ven – en person, man kan tale åbent med og behandle med omsorg.",
     "meaning.p1": "Venlig forbindelse baseret på gensidig interesse og respekt",
     "meaning.p2": "Tydelige kontroller for synlighed, blokering og rapportering",
     "meaning.p3": "Ingen tilfældig matchning eller pres for at svare",

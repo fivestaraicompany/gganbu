@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Batho ba botle, ba haufane haholo",
-    "meta.desc": "App ea lipuisano tsa haufi e hlomphehang bakeng sa batho ba baholo. Kopana le batho ba u potapotileng, phetla ka lipuo tse fapaneng, 'me u thele likamano tse tshepahalang tse seng tsa thobalano ea litaba tsa boithatelo.",
+    "meta.desc": "GGanbu Chat e thusa balile ba haufi ho qala lipuisano tse hlomphelang, ho utloelana ho feta lipuo, le ho aha setsoalle sa nnete—ka ho toba ka Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Batho ba botle, ba haufane haholo",
-    "meta.ogDesc": "App ea lipuisano tsa haufi e hlomphehang bakeng sa batho ba baholo. Kopana le batho ba u potapotileng, phetla ka lipuo tse fapaneng, 'me u thele likamano tse tshepahalang tse seng tsa thobalano ea litaba tsa boithatelo.",
+    "meta.ogDesc": "GGanbu Chat e thusa balile ba haufi ho qala lipuisano tse hlomphelang, ho utloelana ho feta lipuo, le ho aha setsoalle sa nnete—ka ho toba ka Bluetooth.",
     "language.selector": "Puo",
     "nav.meaning": "GGanbu ke eng?",
     "nav.features": "Litšobotsi",
@@ -21,8 +21,8 @@
     "hero.float1": "Bua lipuo tse fapaneng",
     "hero.float2": "Kopanya ka hlompho",
     "meaning.eyebrow": "Tlhaloso ea GGanbu",
-    "meaning.title": "Motsoalle ea tshepanwang, eseng kamano ea thobalano.",
-    "meaning.lead": "“GGanbu” e bolela motsoalle ea haufi le ea tshepanwang—motho eo u ka buang le eena ka pelepelo le ho mo hlokomela. App ena e etselitsoe puisano e hantle, e seng ea thobalano, pakeng tsa balile ba hlomphelang.",
+    "meaning.title": "“GGanbu” e bolela motsoalle ea haufi le ea tshepanwang.",
+    "meaning.lead": "“GGanbu” e bolela motsoalle ea haufi le ea tshepanwang—motho eo u ka buang le eena ka pelepelo le ho mo hlokomela.",
     "meaning.p1": "Kopano ea setsoalle e thehiloeng holim'a thahasello le hlompho ea letsogo",
     "meaning.p2": "Litšebetso tse hlakileng bakeng sa bonelo, ho thibela le ho beha tlhokomeliso",
     "meaning.p3": "Ha ho na le ho kopanya ha batho ka tšohanyetso kapa khatello ea ho araba",

@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Head inimesed, lähemal teineteisest",
-    "meta.desc": "Austav lähedusest vestlusrakendus täiskasvanutele. Kohtuge endiselt inimestega, suhtsige erinevates keeltes ja looge usaldusväärsed, mitteseksuaalsed suhted.",
+    "meta.desc": "GGanbu Chat aitab läheduses olevatel täiskasvanustel alustada austlikke vestlusi, mõista teisi erinevate keelte üle ja luua tõelisid sõbrussuhteid — otse Bluetoothi kaudu.",
     "meta.ogTitle": "GGanbu Chat — Head inimesed, lähemal teineteisest",
-    "meta.ogDesc": "Austav lähedusest vestlusrakendus täiskasvanutele. Kohtuge endiselt inimestega, suhtsige erinevates keeltes ja looge usaldusväärsed, mitteseksuaalsed suhted.",
+    "meta.ogDesc": "GGanbu Chat aitab läheduses olevatel täiskasvanustel alustada austlikke vestlusi, mõista teisi erinevate keelte üle ja luua tõelisid sõbrussuhteid — otse Bluetoothi kaudu.",
     "language.selector": "Keel",
     "nav.meaning": "Mis on GGanbu?",
     "nav.features": "Funktsioonid",
@@ -21,8 +21,8 @@
     "hero.float1": "Suheldge erinevates keeltes",
     "hero.float2": "Suheldge austavalt",
     "meaning.eyebrow": "GGanbu tähendus",
-    "meaning.title": "Usaldatud sõber, mitte seksuaalne suhe.",
-    "meaning.lead": "„GGanbu“ tähendab lähedast ja usaldusväärset sõpra — kedagi, kellega saab avatult rääkida ja keda kohelda hoolivusega. Rakendus on mõeldud tervislikuks, mitteseksuaalseks suhtlemiseks austlike täiskasvanuste vahel.",
+    "meaning.title": "„GGanbu“ tähendab lähedast ja usaldusväärset sõpra.",
+    "meaning.lead": "„GGanbu“ tähendab lähedast ja usaldusväärset sõpra — kedagi, kellega saab avatult rääkida ja keda kohelda hoolivusega.",
     "meaning.p1": "Sõbralik side, mis põhineb vastastiksel huvil ja austusel",
     "meaning.p2": "Selged juhtimised nähtavuse, blokeerimise ja raporteerimise jaoks",
     "meaning.p3": "Puudub juhuslik kokkusaamine või surve vastata",

@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Mabubuting tao, mas pinaglalapit",
-    "meta.desc": "Isang magalang na nearby chat app para sa mga matatanda. Makipagkilala sa mga tao sa iyong paligid, makipag-usap sa iba't ibang wika, at bumuo ng mapagkakatiwalaan at hindi sekswal na koneksyon.",
+    "meta.desc": "Ang GGanbu Chat ay tumutulong sa mga matatanda sa paligid na magsimula ng magalang na pag-uusap, magkaintindihan kahit magkaiba ang wika, at bumuo ng tunay na pagkakaibigan—direkta sa pamamagitan ng Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Mabubuting tao, mas pinaglalapit",
-    "meta.ogDesc": "Isang magalang na nearby chat app para sa mga matatanda. Makipagkilala sa mga tao sa iyong paligid, makipag-usap sa iba't ibang wika, at bumuo ng mapagkakatiwalaan at hindi sekswal na koneksyon.",
+    "meta.ogDesc": "Ang GGanbu Chat ay tumutulong sa mga matatanda sa paligid na magsimula ng magalang na pag-uusap, magkaintindihan kahit magkaiba ang wika, at bumuo ng tunay na pagkakaibigan—direkta sa pamamagitan ng Bluetooth.",
     "language.selector": "Wika",
     "nav.meaning": "Ano ang GGanbu?",
     "nav.features": "Mga Tampok",
@@ -21,8 +21,8 @@
     "hero.float1": "Mag-usap kahit magkaiba ang wika",
     "hero.float2": "Kumonekta nang may paggalang",
     "meaning.eyebrow": "Ang kahulugan ng GGanbu",
-    "meaning.title": "Isang pinagkakatiwalaang kaibigan, hindi isang sekswal na relasyon.",
-    "meaning.lead": "Ang “GGanbu” ay nangangahulugang isang malapit at maaasahang kaibigan—isang tao na maaari mong makausap nang tapat at tratuhin nang may pag-iingat. Ang app ay idinisenyo para sa malusog at hindi sekswal na komunikasyon sa pagitan ng mga magagalang na matatanda.",
+    "meaning.title": "Ang “GGanbu” ay nangangahulugang isang malapit at maaasahang kaibigan.",
+    "meaning.lead": "Ang “GGanbu” ay nangangahulugang isang malapit at maaasahang kaibigan—isang tao na maaari mong makausap nang tapat at tratuhin nang may pag-iingat.",
     "meaning.p1": "Palakaibigang koneksyon na binuo mula sa parehong interes at paggalang",
     "meaning.p2": "Malinaw na mga kontrol para sa visibility, blocking, at reporting",
     "meaning.p3": "Walang random matching o pressure na sumagot",

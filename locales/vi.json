@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Những con người tốt, xích lại gần nhau hơn",
-    "meta.desc": "Một ứng dụng trò chuyện xung quanh lịch sự dành cho người lớn. Gặp gỡ những người xung quanh bạn, giao tiếp không rào cản ngôn ngữ và xây dựng các mối quan hệ tin cậy, không mang tính tình dục.",
+    "meta.desc": "GGanbu Chat giúp những người trưởng thành ở gần nhau bắt đầu các cuộc trò chuyện lịch sự, thấu hiểu nhau bất kể rào cản ngôn ngữ và xây dựng những tình bạn chân chính—trực tiếp qua Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Những con người tốt, xích lại gần nhau hơn",
-    "meta.ogDesc": "Một ứng dụng trò chuyện xung quanh lịch sự dành cho người lớn. Gặp gỡ những người xung quanh bạn, giao tiếp không rào cản ngôn ngữ và xây dựng các mối quan hệ tin cậy, không mang tính tình dục.",
+    "meta.ogDesc": "GGanbu Chat giúp những người trưởng thành ở gần nhau bắt đầu các cuộc trò chuyện lịch sự, thấu hiểu nhau bất kể rào cản ngôn ngữ và xây dựng những tình bạn chân chính—trực tiếp qua Bluetooth.",
     "language.selector": "Ngôn ngữ",
     "nav.meaning": "GGanbu là gì?",
     "nav.features": "Tính năng",
@@ -21,8 +21,8 @@
     "hero.float1": "Giao tiếp vượt rào cản ngôn ngữ",
     "hero.float2": "Kết nối bằng sự tôn trọng",
     "meaning.eyebrow": "Ý nghĩa của GGanbu",
-    "meaning.title": "Một người bạn đáng tin cậy, không phải là mối quan hệ tình dục.",
-    "meaning.lead": "“GGanbu” có nghĩa là một người bạn thân thiết và đáng tin cậy—người mà bạn có thể trò chuyện cởi mở và quan tâm chăm sóc. Ứng dụng được thiết kế cho sự giao tiếp lành mạnh, không mang tính tình dục giữa những người trưởng thành lịch sự.",
+    "meaning.title": "“GGanbu” có nghĩa là một người bạn thân thiết và đáng tin cậy.",
+    "meaning.lead": "“GGanbu” có nghĩa là một người bạn thân thiết và đáng tin cậy—người mà bạn có thể trò chuyện cởi mở và quan tâm chăm sóc.",
     "meaning.p1": "Kết nối thân thiện dựa trên sở thích chung và sự tôn trọng lẫn nhau",
     "meaning.p2": "Kiểm soát rõ ràng về hiển thị, chặn và báo cáo",
     "meaning.p3": "Không ghép đôi ngẫu nhiên hoặc áp lực phải phản hồi",

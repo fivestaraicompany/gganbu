@@ -1,9 +1,9 @@
 {
   "index": {
     "meta.title": "GGanbu Chat — Njerëz të mirë, më pranë njëri-tjetrit",
-    "meta.desc": "Një aplikacion chat respektues për të rritur në zonën tuaj. Takoni njerëz rreth jush, komunikoni nëpër gjuhë dhe krijoni lidhje të besueshme dhe jo seksuale.",
+    "meta.desc": "GGanbu Chat i ndihmon të rriturit pranë tyre të fillojnë biseda me respekt, të kuptojnë njëri-tjetrin pavarësisht gjuhëve dhe të krijojnë miqësi të sinqerta—direkt përmes Bluetooth.",
     "meta.ogTitle": "GGanbu Chat — Njerëz të mirë, më pranë njëri-tjetrit",
-    "meta.ogDesc": "Një aplikacion chat respektues për të rritur në zonën tuaj. Takoni njerëz rreth jush, komunikoni nëpër gjuhë dhe krijoni lidhje të besueshme dhe jo seksuale.",
+    "meta.ogDesc": "GGanbu Chat i ndihmon të rriturit pranë tyre të fillojnë biseda me respekt, të kuptojnë njëri-tjetrin pavarësisht gjuhëve dhe të krijojnë miqësi të sinqerta—direkt përmes Bluetooth.",
     "language.selector": "Gjuha",
     "nav.meaning": "Çfarë është GGanbu?",
     "nav.features": "Veçoritë",
@@ -21,8 +21,8 @@
     "hero.float1": "Komunikoni pavarësisht gjuhëve",
     "hero.float2": "Lidhuni me respekt",
     "meaning.eyebrow": "Kuptimi i GGanbu",
-    "meaning.title": "Një shok i besuar, jo një marrëdhënie seksuale.",
-    "meaning.lead": "“GGanbu” do të thotë një mik i ngushtë dhe i besueshëm—dikush me të cilin mund të flisni hapur dhe që trajtoni me kujdes. Aplikacioni është projektuar për komunikim të shëndetshëm dhe jo-seksual midis të rriturve që tregojnë respekt.",
+    "meaning.title": "“GGanbu” do të thotë një mik i ngushtë dhe i besueshëm.",
+    "meaning.lead": "“GGanbu” do të thotë një mik i ngushtë dhe i besueshëm—dikush me të cilin mund të flisni hapur dhe që trajtoni me kujdes.",
     "meaning.p1": "Lidhje miqësore e ndërtuar mbi interesin dhe respektin reciprok",
     "meaning.p2": "Kontrolle të qarta për dukshmërinë, bllokimin dhe raportimin",
     "meaning.p3": "Pa çiftim të rastësishëm ose presion për t'u përgjigjur",
